@@ -1,0 +1,12 @@
+course = 'hy-intro-to-programming-exam-11032023'
+[exercises.Exam11032023-Exercise1]
+id = 202009
+checksum = 'bab3dfdb65c3adba307378f88eafd93e'
+
+[exercises.Exam11032023-Exercise2]
+id = 202011
+checksum = '8411fa3972c2820ce6799d7f7382f0b4'
+
+[exercises.Exam11032023-Exercise3]
+id = 202010
+checksum = '33e13c2cf7d8f9181aac6bc79bc921d7'
