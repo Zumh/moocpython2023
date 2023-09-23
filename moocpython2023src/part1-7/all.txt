@@ -1,0 +1,4606 @@
+# write a smile :-) emoticon with python print
+print(":-)")
+
+print("Aapo")
+print("Eero")
+print("Juhani")
+print("Lauri")
+print("Simeoni")
+print("Timo")
+print("Tuomas")
+print("Row, row, row your boat,")
+print("Gently down the stream.")
+print("Merrily, merrily, merrily, merrily,")
+print("Life is but a dream.")print(60*24*365)
+#  number of minutes in a year
+print('print("Hello there!")')
+"""
+Please write a program which asks for the user's name and then prints it twice, on two consecutive lines.
+
+An example of the how the program should function:
+What is your name? Paul
+Paul
+Paul
+"""
+name  = input("What is your name? ")
+
+print(name)
+print(name)"""
+Please write a program which asks for the user's name and then prints it out twice on a single line so that there is an exclamation mark at the beginning of the line, another between the two names and a third one at the end of the line.
+
+The program should function as follows:
+What is your name? Paul
+!Paul!Paul!
+"""
+
+name = input("What is your name? ")
+print("!" + name + "!" + name + "!")# Write your solution here
+given_name = input("Given name: ")
+family_name = input("Family name: ")
+street_addr = input("Street address: ")
+city_postal_code = input("City and postal code: ")
+
+print(given_name + " " + family_name + "\n" + street_addr + "\n" + city_postal_code)
+"""
+Here is a program which should ask for three utterances and print them out, like so:
+The 1st part: hickory
+The 2nd part: dickory
+The 3rd part: dock
+hickory-dickory-dock!
+"""
+
+part1 = input("The 1st part: ")
+part2 = input("The 2st part: ")
+part3 = input("The 3st part: ")
+print(part1 + "-" + part2 + "-" + part3 + "!")"""
+Please write a program which prints out the following story. 
+The user gives a name and a year, which should be inserted into the printout.
+
+Please type in a name: Mary
+Please type in a year: 1572
+
+Mary is a valiant knight, born in the year 1572. 
+One morning Mary woke up to an awful racket: a dragon was approaching the village. 
+Only Mary could save the village's residents
+
+"""
+
+name = input("Please type in a name: ")
+dob = input("Please type in a year: ")
+
+print(name + " is a valiant knight, born in the year "+ dob + ". One morning " +name+ " woke up to an awful racket: a dragon was approaching the village. Only "+ name +" could save the village's residents.")
+
+name = "Tim Tester"
+age = 20
+skill1 = "python"
+level1 = "beginner"
+skill2 = "java"
+level2 = "veteran"
+skill3 = "programming"
+level3 = "semiprofessional"
+lower = 2000
+upper = 3000
+
+#print("my name is ", name, " , I am ", age, "years old")
+#print("my skills are")
+#print("- ", skill1, " (", level1, ")")
+#print("- ", skill2, " (", level2, ")")
+#print("- ", skill3, " (", level3, " )")
+#print("I am looking for a job with a salary of", lower, "-", upper, "euros per month")
+print(f"my name is {name}, I am {age} years old\n\nmy skills are\n - {skill1} ({level1})\n - {skill2} ({level2})\n - {skill3} ({level3})\n\nI am looking for a job with a salary of {lower}-{upper} euros per month")x = 27
+y = 15
+
+print(f"{x} + {y} = {x + y}")
+print(f"{x} - {y} = {x - y}")
+print(f"{x} * {y} = {x * y}")
+print(f"{x} / {y} = {x / y}")
+"""
+Please fix this program so that the entire calculation, complete with result, is printed out on a single line. 
+Do not change the number of print commands used.
+"""
+
+print(5,end="")
+print(" + ",end="")
+print(8,end="")
+print(" - ",end="")
+print(4,end="")
+print(" = ",end="")
+print(5 + 8 - 4,end="")
+"""
+Please write a program which asks the user for a number. The program then prints out the number multiplied by five.
+
+The program should function as follows:
+Please type in a number: 3
+3 times 5 is 15
+"""
+
+number = int(input("Please type in a number: "))
+
+print(f"{number} times 5 is {number * 5}")"""
+Please write a program which asks the user for their name and year of birth. 
+The program then prints out a message as follows:
+What is your name? Frances Fictitious
+Which year were you born? 1990
+Hi Frances Fictitious, you will be 31 years old at the end of the year 2021
+"""
+
+name = input("What is your name? ")
+number = int(input("Which year were you born? "))
+current_year = 2021
+print(f"Hi {name}, you will be {current_year - number} years old at the end of the year {current_year}")"""
+Please write a program which asks the user for a number of days. 
+The program then prints out the number of seconds in the amount of days given.
+
+The program should function as follows:
+How many days? 1
+Seconds in that many days: 86400
+"""
+seconds_perday = (60**2) * 24
+seconds = seconds_perday * int(input("How many days? "))
+print(f"Seconds in that many days: {seconds}")"""
+This program asks the user for three numbers. 
+The program then prints out their product, that is, the numbers multiplied by each other. 
+There is, however, something wrong with the program - it doesn't work quite right, as you can see if you run it. 
+Please fix it.
+
+An example of the expected execution of the program:
+Please type in the first number: 2
+Please type in the second number: 3
+Please type in the third number: 5
+The product is 30
+"""
+
+number = int(input("Please type in the first number: "))
+number = number * int(input("Please type in the second number: "))
+number = number * int(input("Please type in the third number: "))
+
+product = number
+print("The product is", product)"""
+Please write a program which asks the user for two numbers. 
+The program will then print out the sum and the product of the two numbers.
+
+The program should function as follows:
+Number 1: 3
+Number 2: 7
+The sum of the numbers: 10
+The product of the numbers: 21
+"""
+
+number1 = int(input("Number 1: "))
+number2 = int(input("Number 2: "))
+
+print(f"The sum of the numbers: {number1 + number2}")
+print(f"The product of the numbers: {number1 * number2}")"""
+Please write a program which asks the user for four numbers. 
+The program then prints out the sum and the mean of the numbers.
+
+The program should function as follows:
+
+Number 1: 2
+Number 2: 1
+Number 3: 6
+Number 4: 7
+The sum of the numbers is 16 and the mean is 4.0
+"""
+# get numbers 
+number1 = int(input("Number 1: "))
+number2 = int(input("Number 2: "))
+number3= int(input("Number 3: "))
+number4 = int(input("Number 4: "))
+# sums and means
+total_sum = number1 + number2 + number3 + number4
+print(f"The sum of the numbers is {total_sum} and the mean is {total_sum/4}")
+"""
+Please write a program which estimates a user's typical food expenditure.
+
+The program asks the user how many times a week they eat at the student cafeteria. 
+Then it asks for the price of a typical student lunch, and for money spent on groceries during the week.
+
+Based on this information the program calculates the user's typical food expenditure both weekly and daily.
+
+The program should function as follows:
+
+
+How many times a week do you eat at the student cafeteria? 4
+The price of a typical student lunch? 2.5
+How much money do you spend on groceries in a week? 28.5
+
+Average food expenditure:
+Daily: 5.5 euros
+Weekly: 38.5 euros
+"""
+
+weekly_freq_eat = int(input("How many times a week do you eat at the student cafeteria? ")) 
+lunch_price = float(input("The price of a typical student lunch? "))
+weekly_grocery_expense = float(input("How much money do you spend on groceries in a week? "))
+
+daily_expense = ((weekly_freq_eat * lunch_price) + weekly_grocery_expense)/7
+weekly_expense = daily_expense * 7
+
+print(f"Average food expenditure: \
+\nDaily: {daily_expense} euros \
+\nWeekly: {weekly_expense} euros \
+")
+"""
+Please write a program which asks for the number of students on a course and the desired group size. 
+The program will then print out the number of groups formed from the students on the course. 
+If the division is not even, one of the groups may have fewer members than specified.
+
+If you can't get your code working as expected, it is absolutely okay to move on and come back to this exercise later. 
+The topic of the next section is conditional statements. 
+This exercise can also be solved using a conditional construction.
+
+How many students on the course? 8
+Desired group size? 4
+Number of groups formed: 2
+"""
+
+students_on_course = int(input("How many students on the course? "))
+group_size = int(input("Desired group size? "))
+number_of_groups = students_on_course//group_size
+if students_on_course % group_size != 0:
+    number_of_groups += 1
+print(f"Number of groups formed: {number_of_groups}")
+
+"""
+Please write a program which asks the user for an integer number. 
+The program should print out "Orwell" if the number is exactly 1984, and otherwise do nothing.
+Please type in a number: 2020
+Please type in a number: 1984
+Orwell
+"""
+
+year = int(input("Please type in a number: "))
+orwell = 1984
+if year == orwell:
+    print("Orwell")"""
+Please write a program which asks the user for an integer number. 
+If the number is less than zero, the program should print out the number multiplied by -1. 
+Otherwise the program prints out the the number as is. 
+Please have a look at the examples of expected behaviour below.
+Please type in a number: -7
+The absolute value of this number is 7
+"""
+
+number = int(input("Please type in a number: "))
+
+if number < 0 :
+    number *= -1
+print(f"The absolute value of this number is {number}") """
+Please write a program which asks for the user's name. 
+If the name is anything but "Jerry", the program then asks for the number of portions and prints out the total cost. 
+The price of a single portion is 5.90.
+
+Two examples of the program's execution:
+
+Please tell me your name: Kramer
+How many portions of soup? 2
+The total cost is 11.8
+Next please!
+
+Please tell me your name: Jerry
+Next please!
+"""
+
+name = input("Please tell me your name: ")
+avoid_name = "Jerry"
+
+if name != avoid_name:  
+    single_portion_price = 5.90
+    soup_portion = int(input("How many portions of soup? "))
+    total_cost = soup_portion * single_portion_price
+    print(f"The total cost is {total_cost}")
+print("Next please!")"""
+Please write a program which asks the user for an integer number. 
+The program should then print out the magnitude of the number according to the following examples.
+
+Please type in a number: 950
+This number is smaller than 1000
+Thank you!
+
+Please type in a number: 2
+This number is smaller than 1000
+This number is smaller than 100
+This number is smaller than 10
+Thank you!
+
+Please type in a number: 1123
+Thank you!
+"""
+
+number = int(input("Please type in a number: "))
+MAX_NUMBER = 1000
+MIN_NUMBER = 10
+MID_NUMBER = 100
+message = "This number is smaller than "
+value = 0
+# check for max number
+if number < MAX_NUMBER:
+    print(f"{message}{MAX_NUMBER}")
+# check for mid number
+if number < MID_NUMBER:
+    print(f"{message}{MID_NUMBER}")
+# check for min number
+if number < MIN_NUMBER:
+    print(f"{message}{MIN_NUMBER}")
+print("Thank you!")
+
+"""
+Please write a program which asks the user for two numbers and an operation. 
+If the operation is add, multiply or subtract, the program should calculate and print out the result of the operation with the given numbers. 
+If the user types in anything else, the program should print out nothing.
+
+Some examples of expected behaviour:
+Number 1: 10
+Number 2: 17
+Operation: add/ multiply/ subtract
+
+10 + 17 = 27
+"""
+
+number1 = int(input("Number 1: "))
+
+number2 = int(input("Number 2: "))
+
+operation = input("Operation: ")
+
+result = ""
+
+if operation == "add":
+    result = f"{number1} + {number2} = {number1 + number2}"
+elif operation == "subtract":
+    
+    result = f"{number1} - {number2} = {number1 - number2}"
+
+elif operation == "multiply":
+    
+    result = f"{number1} * {number2} = {number1 * number2}"
+print(result)"""
+Please write a program which asks the user for a temperature in degrees Fahrenheit, and then prints out the same in degrees Celsius. 
+If the converted temperature falls below zero degrees Celsius, the program should also print out "Brr! It's cold in here!".
+
+The formula for converting degrees Fahrenheit to degrees Celsius can be found easily by any search engine of your choice.
+
+Two examples of expected behaviour:
+
+Please type in a temperature (F): 101
+101 degrees Fahrenheit equals 38.333333333333336 degrees Celsius
+
+Please type in a temperature (F): 21
+21 degrees Fahrenheit equals -6.111111111111111 degrees Celsius
+Brr! It's cold in here!
+"""
+
+temperature_fahrenheit = int(input("Please type in a temperature (F): "))
+temperature_celsius = (temperature_fahrenheit - 32) * (5/9)
+temperature_result = f"{temperature_fahrenheit} degrees Fahrenheit equals {temperature_celsius} degrees Celsius"
+if temperature_celsius < 0:
+    temperature_result += "\nBrr! It's cold in here!"
+print(temperature_result)"""
+    Please write a program which asks for the hourly wage, hours worked, and the day of the week. 
+    The program should then print out the daily wages, which equal hourly wage multiplied by hours worked, 
+    except on Sundays when the hourly wage is doubled.
+Hourly wage: 8.5
+Hours worked: 3
+Day of the week: Monday
+Daily wages: 25.5 euros
+"""
+
+hourly_wage = float(input("Hourly wage: "))
+hours_worked = int(input("Hours worked: "))
+week_day = input("Day of the week: ")
+wage = hourly_wage * hours_worked
+
+if week_day == "Sunday":
+    wage *= 2
+
+print(f"Daily wages: {wage} euros")
+"""
+This program calculates the end of year bonus a customer receives on their loyalty card.
+The bonus is calculated with the following formula:
+
+If there are less than a hundred points on the card, the bonus is 10 %
+In any other case the bonus is 15 %
+The program should work like this:
+
+
+"""
+# fix the program
+points = int(input("How many points are on your card? "))
+if points < 100:
+    points *= 1.1
+    print("Your bonus is 10 %")
+elif points >= 100:
+    points *= 1.15
+    print("Your bonus is 15 %")
+print("You now have", points, "points")"""
+Please write a program which asks for tomorrow's weather forecast and then suggests weather-appropriate clothing.
+
+The suggestion should change if the temperature (measured in degrees Celsius) is over 20, 10 or 5 degrees, and also if there is rain on the radar.
+
+Some examples of expected behaviour:
+What is the weather forecast for tomorrow?
+Temperature: 21
+Will it rain (yes/no): no
+Wear jeans and a T-shirt
+
+What is the weather forecast for tomorrow?
+Temperature: 11
+Will it rain (yes/no): no
+Wear jeans and a T-shirt
+I recommend a jumper as well
+
+What is the weather forecast for tomorrow?
+Temperature: 7
+Will it rain (yes/no): no
+Wear jeans and a T-shirt
+I recommend a jumper as well
+Take a jacket with you
+
+What is the weather forecast for tomorrow?
+Temperature: 3
+Will it rain (yes/no): yes
+Wear jeans and a T-shirt
+I recommend a jumper as well
+Take a jacket with you
+Make it a warm coat, actually
+I think gloves are in order
+Don't forget your umbrella!
+
+"""
+
+# Write your solution here
+
+print("What is the weather forecast for tomorrow?")
+temperature = int(input("Temperature: "))
+is_rain = input("Will it rain (yes/no): ")
+
+recommendation = "Wear jeans and a T-shirt\n"
+
+if temperature <= 20:
+    recommendation += "I recommend a jumper as well\n"
+if temperature <= 10:
+    recommendation += "Take a jacket with you\n"
+if temperature <= 5:
+    recommendation += "Make it a warm coat, actually\nI think gloves are in order\n"
+if is_rain == "yes":
+    recommendation += "Don't forget your umbrella!"
+
+print(recommendation)"""
+In the Python math module there is the function sqrt, which calculates the square root of a number. 
+You can use it like so:
+from math import sqrt
+
+print(sqrt(9))
+This should print out
+
+3.0
+
+We will return to the concept of a module and the import statement later. For now, it is sufficient to understand that the line from math import sqrt allows us to use the sqrt function in our program.
+
+Please write a program for solving a quadratic equation of the form ax²+bx+c. The program asks for values a, b and c. It should then use the quadratic formula to solve the equation. The quadratic formula expressed with the Python sqrt function is as follows:
+
+x = (-b ± sqrt(b²-4ac))/(2a).
+
+You can assume the equation will always have two real roots, so the above formula will always work.
+
+An example of expected behaviour:
+
+Value of a: 1
+Value of b: 2
+Value of c: -8
+
+The roots are 2.0 and -4.0
+"""
+
+# Write your solution here
+# Let's take the square root of math-module in use
+from math import sqrt
+
+a_value = int(input("Value of a: "))
+b_value = int(input("Value of b: "))
+c_value = int(input("Value of c: "))
+
+x_plus = ((-b_value)+sqrt((b_value**2)-(4*a_value*c_value)))/(2*a_value)
+x_minus = ((-b_value)-sqrt((b_value**2)-(4*a_value*c_value)))/(2*a_value)
+
+print(f"The roots are {x_plus} and {x_minus}")
+# Note that the square root can also be calculated using power.
+# sqrt(9) is equivalent to 9 ** 0.5 
+"""
+The following program contains several syntactic errors.
+Please fix the program so that the syntax is in order and the program works as specified by the examples below.
+
+Please type in a number: 13
+13 must be my lucky number!
+Have a nice day!
+
+Please type in a number: 101
+The number was greater than one hundred
+Now its value has decreased by one hundred
+Its value is now 1
+1 must be my lucky number!
+Have a nice day!
+ """
+
+# Fix the program.
+number = int(input("Please type in a number: "))
+if number>100:
+    print("The number was greater than one hundred")
+    number -= 100
+    print("Now its value has decreased by one hundred")
+    print(f"Its value is now {number}")
+print(f"{number} must be my lucky number!")
+print("Have a nice day!")
+"""
+Please write a program which asks the user for a word and then prints out the number of characters, 
+if there was more than one typed in.
+
+Examples of expected behaviour:
+Please type in a word: hey
+There are 3 letters in the word hey
+Thank you!
+
+Please type in a word: banana
+There are 6 letters in the word banana
+Thank you!
+
+Please type in a word: b
+Thank you!
+"""
+
+word = input("Please type in a word: ")
+word_len = len(word)
+answer = ""
+if word_len > 1 :
+    answer = f"There are {word_len} letters in the word {word}\n"
+print(answer+"Thank you!")
+"""
+Please write a program which asks the user for a floating point number and then prints out the integer part and the decimal part separately. Use the Python int function.
+
+You can assume the number given by the user is always greater than zero.
+
+An example of expected behaviour:
+Please type in a number: 1.34
+Integer part: 1
+Decimal part: 0.34
+
+"""
+number = float(input("Please type in a number: "))
+print(f"Integer part: {int(number)}\nDecimal part: {number-int(number)}")
+"""
+Please write a program which asks the user for their age. 
+The program should then print out a message based on whether the user is of age or not, using 18 as the age of maturity.
+
+Some examples of expected behaviour:
+How old are you? 12
+You are not of age!
+"""
+
+age = int(input("How old are you? "))
+if age < 18:
+    print("You are not of age!")
+else:
+    print("You are of age!")"""
+Please write a program which asks for two integer numbers. 
+The program should then print out whichever is greater. 
+If the numbers are equal, the program should print a different message.
+
+Some examples of expected behaviour:
+
+Please type in the first number: 5
+Please type in another number: 3
+The greater number was: 5
+"""
+
+first_number = int(input("Please type in the first number: "))
+second_number = int(input("Please type in another number: "))
+message = "The greater number was: "
+if first_number > second_number:
+    message = f"{message} {first_number}"
+elif first_number < second_number:
+
+    message = f"{message} {second_number}"
+else: 
+    message = "The numbers are equal!"
+print(message)"""
+Please write a program which asks for the names and ages of two persons. 
+The program should then print out the name of the elder.
+
+Some examples of expected behaviour:
+
+Person 1:
+Name: Alan
+Age: 26
+Person 2:
+Name: Ada
+Age: 27
+The elder is Ada
+"""
+# Write your solution here
+
+older_or_same = "The elder is "
+
+print("Person 1:")
+first_person_name = input("Name: ")
+first_person_age = int(input("Age: "))
+
+print("Person 2:")
+second_person_name = input("Name: ")
+second_person_age = int(input("Age: "))
+
+elder_or_same = f"The elder is "
+if first_person_age > second_person_age:
+    elder_or_same += first_person_name
+elif first_person_age < second_person_age:
+    elder_or_same += second_person_name
+elif second_person_age == first_person_age:
+    elder_or_same = f"{first_person_name} and {second_person_name} are the same age" 
+
+print(elder_or_same)"""
+Python comparison operators can also be used on strings. 
+String a is smaller than string b if it comes alphabetically before b. Notice however that the comparison is only reliable if
+the b characters compared are of the same case, i.e. both UPPERCASE or both lowercase
+only the standard English alphabet of a to z, or A to Z, is used.
+Please write a program which asks the user for two words. The program should then print out whichever of the two comes alphabetically last.
+
+You can assume all words will be typed in lowercase entirely.
+
+Some examples of expected behaviour:
+
+Please type in the 1st word: car
+Please type in the 2nd word: scooter
+scooter comes alphabetically last.
+
+"""
+
+first_word = input("Pelase type in the 1st word: ")
+second_word = input("Please type in the 2nd word: ")
+message = "You gave the same word twice."
+if first_word != second_word:
+    if second_word > first_word:
+        first_word = second_word
+    message = first_word + " comes alphabetically last."
+
+print(message)
+"""
+Please write a program which asks for the user's age. 
+If the age is not plausible, that is, it is under 5 or something that can't be an actual human age, the program should print out a comment.
+What is your age? 13
+Ok, you're 13 years old
+"""
+
+age = int(input("What is your age? "))
+final_message = f"That must be a mistake"
+
+if 0 <= age < 5:
+    final_message = "I suspect you can't write quite yet..."
+elif age >= 5:
+    final_message = f"Ok, you're {age} years old"
+print(final_message)"""
+Please write a program which asks for the user's name. 
+If the name is Huey, Dewey or Louie, the program should recognise the user as one of Donald Duck's nephews.
+
+In a similar fashion, if the name is Morty or Ferdie, the program should recognise the user as one of Mickey Mouse's nephews.
+"""
+
+name = input("Please type in your name: ")
+user = ""
+whos_nephews = "You're not a nephew of any character I know of."
+if name == "Huey" or name == "Dewey" or name == "Louie":
+    user = "Donald Duck"
+elif name == "Morty" or name == "Ferdie":
+    user = "Mickey Mouse"
+if len(user) > 0:
+    whos_nephews = f"I think you might be one of {user}'s nephews."
+print(whos_nephews)"""
+The table below outlines the grade boundaries on a certain university course. 
+Please write a program which asks for the amount of points received and then prints out the grade attained according to the table.
+"""
+
+
+grade = int(input("How many points [0-100]: "))
+
+message = "impossible!"
+
+if 0 <= grade <= 49:
+    message = "fail"
+elif 50 <= grade <= 59:
+    message = "1"
+elif 60 <= grade <= 69:
+    message = "2"
+elif 70 <= grade <= 79:
+    message = "3"
+elif 80 <= grade <= 89:
+    message = "4"
+elif 90 <= grade <= 100:
+    message = "5"
+print(f"Grade: {message}")"""
+Please write a program which asks the user for an integer number. 
+If the number is divisible by three, the program should print out Fizz. 
+If the number is divisible by five, the program should print out Buzz. 
+If the number is divisible by both three and five, the program should print out FizzBuzz.
+"""
+
+number = int(input("Number: "))
+fizz_or_buzz = ""
+if number % 3 == 0 and number % 5 == 0:
+    fizz_or_buzz = "FizzBuzz"
+elif number % 3 == 0:
+    fizz_or_buzz = "Fizz"
+elif number % 5 == 0:
+    fizz_or_buzz = "Buzz"
+
+print(fizz_or_buzz)"""
+Generally, any year that is divisible by four is a leap year. 
+However, if the year is additionally divisible by 100, it is a leap year only if it also divisible by 400.
+
+Some examples:
+
+Sample output
+Please type in a year: 2011
+That year is not a leap year.
+"""
+
+year = int(input("Please type in a year: "))
+
+is_leap = False 
+
+final_message = "That year is not a leap year."
+
+if (year % 4 == 0 and year % 100 != 0) or year % 400 == 0:
+    final_message = "That year is a leap year."
+print(final_message)
+
+
+"""
+Please write a program which asks the user for three letters. 
+The program should then print out whichever of the three letters would be in the middle if the letters were in alphabetical order.
+You may assume the letters will be either all uppercase, or all lowercase.
+
+1st letter: x
+2nd letter: c
+3rd letter: p
+The letter in the middle is p
+
+
+"""
+
+first_letter = input("1st letter: ")
+
+second_letter = input("2nd letter: ")
+
+third_letter = input("3rd letter: ")
+
+message = "The letter in the middle is "
+
+if (first_letter < second_letter < third_letter) or (third_letter < second_letter < first_letter):
+    message += second_letter
+elif (second_letter < first_letter < third_letter) or (third_letter < first_letter < second_letter):
+    message += first_letter
+else:
+    message += third_letter
+
+print(message)
+"""
+Please write a program which calculates the correct amount of tax for a gift from a close relative. 
+Have a look at the examples below to see what is expected. 
+Notice the lack of thousands separators in the input values 
+- you may assume there will be no spaces or other thousands separators in the numbers in the input, as we haven't yet covered dealing with these.
+"""
+
+# Write your solution here
+# get the gift from user input
+
+gift = int(input("Value of gift: "))
+answer = f"Amount of tax: "
+tax = 0
+# gift value ragne from 5000 - 25000
+MAX_GIFT = 25000
+MIN_GIFT = 5000
+TAX_RATE = 8/100
+LOWER_LIMIT = 100 
+if MIN_GIFT <= gift < MAX_GIFT:
+    tax = LOWER_LIMIT + ((gift - MIN_GIFT) * TAX_RATE)
+MIN_GIFT = 25000
+MAX_GIFT = 55000
+TAX_RATE = 10/100
+LOWER_LIMIT = 1700
+
+if MIN_GIFT <= gift < MAX_GIFT:
+    tax = LOWER_LIMIT + ((gift - MIN_GIFT) * TAX_RATE)
+
+MIN_GIFT = 55000
+MAX_GIFT = 200000
+TAX_RATE = 12/100
+LOWER_LIMIT = 4700
+if MIN_GIFT <= gift < MAX_GIFT:
+    tax = LOWER_LIMIT + ((gift - MIN_GIFT) * TAX_RATE)
+
+MIN_GIFT = 200000
+MAX_GIFT = 1000000
+TAX_RATE = 15/100
+LOWER_LIMIT = 22100
+if MIN_GIFT <= gift < MAX_GIFT:
+    tax = LOWER_LIMIT + ((gift - MIN_GIFT) * TAX_RATE)
+
+
+MIN_GIFT = 1000000
+TAX_RATE = 17/100
+LOWER_LIMIT = 142100
+if MIN_GIFT <= gift :
+    tax = LOWER_LIMIT + ((gift - MIN_GIFT) * TAX_RATE)
+
+if tax > 0:
+    print(f"Amount of tax: {tax} euros")
+else:
+    print("No tax!")"""
+Let's create a program along the lines of the example above. 
+This program should print out the message "hi" and then ask "Shall we continue?" until the user inputs "no". 
+Then the program should print out "okay then" and finish. Please have a look at the example below.
+"""
+
+greet = ""
+greet_back = "hi"
+while greet != "no":
+    print(greet_back)
+    greet = input("Shall we continue? ")
+
+    if greet == "no":
+        greet_back = "okay then"
+print(greet_back)
+"""
+Please write a program which asks the user for integer numbers.
+
+If the number is below zero, the program should print out the message "Invalid number".
+
+If the number is above zero, the program should print out the square root of the number using the Python sqrt function.
+
+In either case, the program should then ask for another number.
+
+If the user inputs the number zero, the program should stop asking for numbers and exit the loop.
+"""
+from math import sqrt
+# Write your solution here
+
+number = -100
+while number != 0:
+    number = int(input("Please type in a number: "))
+    if number < 0:
+        print("Invalid number")
+    elif number > 0:
+        print(sqrt(number))
+print("Exiting...")"""
+Fix coundown program
+"""
+number = 5
+print("Countdown!")
+while True:
+  print(number)
+  number = number - 1
+  if number <= 0:
+    break
+
+print("Now!")
+"""
+Please write a program which asks the user for a password. 
+The program should then ask the user to type in the password again. 
+If the user types in something else than the first password, the program should keep on asking until the user types the first password again correctly.
+
+Password: sekred
+Repeat password: secret
+They do not match!
+Repeat password: cantremember
+They do not match!
+Repeat password: sekred
+User account created!
+"""
+
+password = input("Password: ")
+pass_match = "User account created!"
+repeat_password = ""
+while password != repeat_password:
+    repeat_password = input("Repeat password: ")
+    if password != repeat_password:
+        pass_match = "They do not match!"
+    else:
+        pass_match = "User account created!"
+    print(pass_match)"""
+Please write a program which keeps asking the user for a PIN code until they type in the correct one, which is 4321. 
+The program should then print out the number of times the user tried different codes.
+PIN: 3245
+Wrong
+PIN: 1234
+Wrong
+PIN: 0000
+Wrong
+PIN: 4321
+Correct! It took you 4 attempts
+"""
+# Write your solution here
+input_PIN = ""
+PIN = "4321"
+count_attempt = 0
+
+while input_PIN != PIN:
+
+    input_PIN = input("PIN: ")
+    count_attempt += 1
+    if PIN != input_PIN:
+        print("Wrong")
+if count_attempt == 1:
+    print(f"Correct! It only took you one single attempt!")    
+elif count_attempt > 1:
+    print(f"Correct! It took you {count_attempt} attempts")"""
+Please write a program which asks the user for a year, and prints out the next leap year.
+Year: 2023
+The next leap year after 2023 is 2024
+
+if year is leap year
+Year: 2024
+The next leap year after 2024 is 2028
+"""
+
+year = int(input("Year: "))
+next_leap = year
+found_next_leap = False 
+
+while found_next_leap == False:
+    next_leap += 1
+    # check if year is leap year
+    # detect leap year 
+    if (next_leap % 4 == 0 and next_leap % 100 != 0) or (next_leap % 400 == 0):
+        # find the next leap year 
+        found_next_leap = True
+
+print(f"The next leap year after {year} is {next_leap}")
+"""
+Part 1
+Please write a program which keeps asking the user for words. If the user types in end, the program should print out the story the words formed, and finish.
+
+Sample output
+Please type in a word: Once
+Please type in a word: upon
+Please type in a word: a
+Please type in a word: time
+Please type in a word: there
+Please type in a word: was
+Please type in a word: a
+Please type in a word: girl
+Please type in a word: end
+Once upon a time there was a girl
+
+Part 2
+Change the program so that the loop ends also if the user types in the same word twice.
+
+Sample output
+Please type in a word: It
+Please type in a word: was
+Please type in a word: a
+Please type in a word: dark
+Please type in a word: and
+Please type in a word: stormy
+Please type in a word: night
+Please type in a word: night
+It was a dark and stormy night
+"""
+
+word = ""
+repeated_word = " "
+sentence = ""
+more_input = True 
+while more_input == True:
+    word = input("Please type in a word: ")
+    if word != repeated_word and word != "end":
+        sentence += word + " "
+    else:
+        more_input = False
+
+    repeated_word = word
+print(sentence)"""
+Please write a program which asks the user for integer numbers. 
+The program should keep asking for numbers until the user types in zero.
+"""
+# Write your solution here
+number = None
+number_counter = 0
+negative_counter = 0
+positive_counter = 0
+sum_of_number = 0
+print("Please type in integer numbers. Type in 0 to finish.")
+while (number := int(input("Number: "))) != 0:
+    if number < 0:
+        negative_counter += 1
+    elif number > 0:
+        positive_counter += 1
+    number_counter += 1
+    sum_of_number += number
+mean_of_number = sum_of_number/number_counter
+print(f"Numbers typed in {number_counter}\n\
+The sum of the numbers is {sum_of_number}\n\
+The mean of the numbers is {mean_of_number}\n\
+Positive numbers {positive_counter}\n\
+Negative numbers {negative_counter}")
+
+
+"""
+Please write a program which prints out all the even numbers between two and thirty, using a loop. 
+Print each number on a separate line.
+"""
+
+# number between 2 and 30
+MIN_NUM = 2
+MAX_NUM = 30
+counter = MIN_NUM
+while counter <=MAX_NUM:
+    print(counter)
+    counter += 2"""
+countdown program
+fix syntax
+"""
+
+print("Are you ready?")
+number = int(input("Please type in a number: "))
+while number > 0:
+    print(number)
+    number -= 1
+print("Now!")"""
+Please write a program which asks the user for a number. 
+The program then prints out all integer numbers greater than zero but smaller than the input.
+"""
+
+number = int(input("Upper limit: "))
+count_number = 1
+while count_number < number:
+    print(count_number)
+    count_number +=1"""
+Please write a program which asks the user to type in an upper limit. 
+The program then prints out numbers so that each subsequent number is the previous one doubled, starting from the number 1. 
+That is, the program prints out powers of two in order.
+
+The execution of the program finishes when the next number to be printed would be greater than the limit set by the user. No numbers greater than the limit should be printed.
+"""
+number = int(input("Upper limit: "))
+doubled_number = 1
+while doubled_number <= number:
+    print(doubled_number)
+    doubled_number *= 2"""
+Please change the program from the previous exercise so that the user 
+gets to input also the base which is multiplied (in the previous program the base was always 2).
+"""
+
+power = int(input("Upper limit: "))
+product = 1
+base = int(input("Base: "))
+
+while product <= power:
+    print(product)
+    product *= base"""
+Please write a program which asks the user to type in a limit. 
+The program then calculates the sum of consecutive numbers (1 + 2 + 3 + ...) until the sum is at least equal to the limit set by the user. The program should function as follows:
+Limit: 18
+21
+"""
+
+limit = int(input("Limit: "))
+total_sum = 0
+count_limit = 0
+while total_sum < limit:
+    total_sum += count_limit
+    count_limit += 1
+print(total_sum)"""
+Please write a new version of the program in the previous exercise. 
+In addition to the result it should also print out the calculation performed:
+assume limit is 2 or higher
+Limit: 2
+The consecutive sum: 1 + 2 = 3
+"""
+
+limit = 0
+count_limit = 0
+
+# assuming always start from 1
+answer = "1"
+total_sum = 0
+limit = int(input("Limit: "))
+while total_sum < limit:
+    total_sum += count_limit
+    if count_limit > 1:
+        answer += f" + {count_limit}"
+    count_limit += 1
+
+print(f"The consecutive sum: {answer} = {total_sum}")"""
+Please write a program which asks the user for a string and an amount. 
+The program then prints out the string as many times as specified by the amount. 
+The printout should all be on one line, with no extra spaces or symbols added.
+
+An example of expected behaviour:
+Please type in a string: hiya
+Please type in an amount: 4
+hiyahiyahiyahiya
+"""
+a_string = input("Please type in a string: ")
+amount = int(input("Please type in an amount: "))
+
+print(a_string*amount)"""
+Please write a program which asks the user for two strings and then prints out whichever is the longer of the two - that is, whichever has the more characters. 
+If the strings are of equal length, the program should print out "The strings are equally long".
+
+Some examples of expected behaviour:
+Please type in string 1: hey
+Please type in string 2: hiya
+hiya is longer
+"""
+
+string_1 = input("Please type in string 1: ")
+string_2 = input("Please type in string 2: ")
+message  = "The strings are equally long"
+# if string 2 is longer switch string1 with string2
+if len(string_1) > len(string_2):
+    message = f"{string_1} is longer"
+elif len(string_1) < len(string_2):
+    message = f"{string_2} is longer"
+print(message)"""
+Please write a program which asks the user for a string. 
+The program then prints out the input string in reversed order, from end to beginning. 
+Each character should be on a separate line.
+
+An example of expected behaviour:
+
+Sample output
+Please type in a string: hiya
+a
+y
+i
+h
+"""
+
+sentence = input("Please type in a string: ")
+index = len(sentence) - 1 
+while index >= 0:
+    print(sentence[index])
+    index -= 1
+"""
+Please write a program which asks the user for a string. 
+The program then prints out a message based on whether the second character and the second to last character are the same or not. See the examples below.
+
+Sample output
+Please type in a string: python
+The second and the second to last characters are different
+
+Sample output
+Please type in a string: pascal
+The second and the second to last characters are a
+"""
+
+a_string = input("Please type in a string: ")
+
+second_character = a_string[1]
+second_last_character = a_string[-2]
+message = f"The second and the second to last characters are "
+if second_character == second_last_character:
+    message += f"{second_character}"
+else:
+    message += "different"
+print(message)"""
+Please write a program which prints out a line of hash characters, the width of which is chosen by the user.
+
+Sample output
+Width: 3
+
+###
+Sample output
+Width: 8
+
+########
+"""
+
+width = int(input("Width: "))
+character = "#"
+print(character * width)"""
+Please modify the previous program so that it also asks for the height, and prints out a rectangle of hash characters accordingly.
+
+Sample output
+Width: 10
+Height: 3
+##########
+##########
+##########
+"""
+
+width = int(input("Width: "))
+height = int(input("Height: "))
+character = "#"
+count_height = 0
+while count_height < height:
+    print(character * width)
+    count_height += 1"""
+Please write a program which asks the user for strings using a loop. 
+The program prints out each string underlined as shown in the examples below. 
+The execution ends when the user inputs an empty string - that is, just presses Enter at the prompt.
+
+Sample output
+Please type in a string: Hi there!
+
+Hi there!
+---------
+Please type in a string: This is a test
+
+This is a test
+--------------
+Please type in a string: a
+
+a
+-
+"""
+
+a_string = None
+character = "-" 
+while a_string != "":
+    a_string = input("Please type in a string: ")
+    print(f"{a_string}\n{character*len(a_string)}")"""
+Please write a program which asks the user for a string and then prints it out so that exactly 20 characters are displayed. 
+If the input is shorter than 20 characters, the beginning of the line is filled in with * characters.
+
+You may assume the input string is at most 20 characters long.
+
+Sample output
+Please type in a string: python
+
+**************python
+Sample output
+Please type in a string: alongerstring
+
+*******alongerstring
+Sample output
+Please type in a string: averyverylongstring
+
+*averyverylongstring
+"""
+
+character = "*"
+MAX_LENGTH = 20
+a_string = input("Please type in a string: ")
+string_lenght = MAX_LENGTH - len(a_string)
+
+print(f"{character * string_lenght}{a_string}")
+"""
+Please write a program which asks the user for a string and then prints out a frame of * characters with the word in the centre.
+The width of the frame should be 30 characters. You may assume the input string will always fit inside the frame.
+
+If the length of the input string is an odd number, you may print out the word in either of the two possible centre locations.
+
+Sample output
+Word: testing
+
+******************************
+*          testing           *
+******************************
+Sample output
+Word: python
+
+******************************
+*           python           *
+******************************
+"""
+
+word = input("Word: ")
+character = "*"
+LENGTH = 30
+
+top_bottom = character * LENGTH
+odd_space = ""
+word_length = len(word)
+if word_length % 2 != 0:
+    odd_space = " "
+
+space = " " * ((LENGTH - word_length - 2)//2)
+middle = f"{character}{space}{word}{space+odd_space}{character}"
+print(f"{top_bottom}\n{middle}\n{top_bottom}")
+ """
+Please write a program which asks the user to type in a string. 
+The program then prints out all the substrings which begin with the first character, from the shortest to the longest. 
+Have a look at the example below.
+
+Sample output
+Please type in a string: test
+
+t
+te
+tes
+test
+"""
+
+word = input("Please type in a string: ")
+index = 0
+while index <= len(word):
+    print(word[:index])
+    index += 1
+"""
+Please write a program which asks the user to type in a string. 
+The program then prints out all the substrings which end with the last character, from the shortest to the longest. 
+Have a look at the example below.
+
+Sample output
+Please type in a string: test
+t
+st
+est
+test
+"""
+
+word = input("Plese type in a string: ")
+index = len(word)-1
+
+while index >= 0:
+    print(word[index:])
+    index -= 1"""
+Please write a program which asks the user to input a string. 
+The program then prints out different messages if the string contains any of the vowels a, e or o.
+
+You may assume the input will be in lowercase entirely. Have a look at the examples below.
+
+Sample output
+Please type in a string: hello there
+a not found
+e found
+o found
+
+Sample output
+Please type in a string: hiya
+a found
+e not found
+o not found
+"""
+
+index = 0 
+word = input("Please type in a string: ")
+find_word = "aeo"
+result = ""
+while index < len(find_word) :
+    result = find_word[index]
+    if find_word[index] in word:
+        result += " found"
+    else:
+        result += " not found"
+    print(result)
+    index += 1
+
+
+"""
+Please write a program which asks the user to type in a string and a single character. 
+The program then prints the first three character slice which begins with the character specified by the user. 
+You may assume the input string is at least three characters long. The program must print out three characters, or else nothing.
+
+Pay special attention to when there are less than two characters left in the string after the first occurrence of the character looked for. 
+In that case nothing should be printed out, and there should not be any indexing errors when executing the program.
+
+Sample output
+Please type in a word: mammoth
+Please type in a character: m
+mam
+
+Sample output
+Please type in a word: banana
+Please type in a character: n
+nan
+
+Sample output
+Please type in a word: tomato
+Please type in a character: x
+
+Sample output
+Please type in a word: python
+Please type in a character: n
+"""
+
+word = input("Please type in a word: ")
+found = False
+character = input("Please type in a character: ")
+found_index = word.find(character) 
+start_index = found_index
+end_index = found_index + 3
+
+if found_index >= 0 and end_index <= len(word):
+    message = word[start_index:end_index]
+    print(message)"""
+Please make an extended version of the previous program, 
+which prints out all the substrings which are at least three characters long, and 
+which begin with the character specified by the user. 
+You may assume the input string is at least three characters long.
+
+Sample output
+Please type in a word: mammoth
+Please type in a character: m
+mam
+mmo
+mot
+
+Sample output
+Please type in a word: banana
+Please type in a character: n
+nan
+
+Hint the following example may give you some inspiration as to how this exercise could be tackled:
+
+word = input("Word: ")
+while True:
+    if len(word) == 0:
+        break
+    print(word)
+    word = word[2:]
+Sample output
+Word: mammoth
+mammoth
+mmoth
+oth
+h
+"""
+word = input("Please type in a word: ")
+character = input("Please type in a character: ")
+found_index = 0
+while len(word) > 0 and found_index >= 0:
+    found_index = word.find(character)
+    # only get three character from found_index to end_index.
+    end_index = found_index + 3
+    
+    if end_index <= len(word) and found_index >= 0:
+        print(word[found_index:end_index])
+    word = word[found_index+1:]
+"""
+Please write a program which finds the second occurrence of a substring. If there is no second (or first) occurrence, the program should print out a message accordingly.
+
+In this exercise the occurrences cannot overlap. For example, in the string aaaa the second occurrence of the substring aa is at index 2.
+
+Some examples of expected behaviour:
+
+Sample output
+Please type in a string: abcabc
+Please type in a substring: ab
+The second occurrence of the substring is at index 3.
+
+Sample output
+Please type in a string: methodology
+Please type in a substring: o
+The second occurrence of the substring is at index 6.
+
+Sample output
+Please type in a string: aybabtu
+Please type in a substring: ba
+The substring does not occur twice in the string.
+"""
+
+
+a_string = input("Please type in a string: ")
+
+sub_string =  input("Please type in a substring: ")
+
+# find user input character 2nd occurance
+# quit if  
+
+occurance_count = 0 
+index = 0
+found_index = 0
+or_len = len(sub_string)
+
+
+while index < len(a_string) and occurance_count < 2:
+    end_dex = or_len + index
+    if sub_string == a_string[index:end_dex]:
+        occurance_count += 1
+        found_index = index
+        index = end_dex
+    index += 1
+    
+if occurance_count == 2:
+    print(f"The second occurrence of the substring is at index {found_index}.")
+else:
+    print("The substring does not occur twice in the string.")"""
+Please write a program which asks the user for a positive integer number. The program then prints out a list of multiplication operations until both operands reach the number given by the user. See the examples below for details:
+
+Sample output
+Please type in a number: 2
+1 x 1 = 1
+1 x 2 = 2
+2 x 1 = 2
+2 x 2 = 4
+"""
+
+number = int(input("Please type in a number: "))
+
+first = 1
+while first <= number:
+    second = 1 
+    while second <= number:
+        print(f"{first} x {second} = {first*second}")
+        second += 1 
+    first += 1
+"""
+Please write a program which asks the user to type in a sentence. The program then prints out the first letter of each word in the sentence, each letter on a separate line.
+
+An example of expected behaviour:
+
+Sample output
+Please type in a sentence: Humpty Dumpty sat on a wall
+H
+D
+s
+o
+a
+w
+"""
+
+
+a_string = input("Please type in a sentence: ")
+space_index = 0
+while space_index >= 0:
+    space_index = a_string.find(" ") 
+    print(a_string[0])
+    if space_index > 0 :
+        a_string = a_string[space_index+1:]
+"""
+Please write a program which asks the user to type in an integer number. If the user types in a number equal to or below 0, the execution ends. Otherwise the program prints out the factorial of the number.
+
+The factorial of a number involves multiplying the number by all the positive integers smaller than itself. In other words, it is the product of all positive integers less than or equal to the number. For example, the factorial of 5 is 1 * 2 * 3 * 4 * 5 = 120.
+
+Some examples of expected behaviour:
+Sample output
+Please type in a number: 3
+The factorial of the number 3 is 6
+Please type in a number: 4
+The factorial of the number 4 is 24
+Please type in a number: -1
+Thanks and bye!
+
+Sample output
+Please type in a number: 1
+The factorial of the number 1 is 1
+Please type in a number: 0
+Thanks and bye!
+"""
+given = 1000
+while given > 0:
+    given = int(input("Please type in a number: "))
+    #init factorial and number
+    number = 1
+    fact = 1
+    #calculate factorial 
+    while number <= given:
+        fact *= number
+    
+        number += 1
+    if given > 0:
+        print(f"The factorial of the number {given} is {fact}")
+print("Thanks and bye!")"""
+Please write a program which asks the user to type in a number. The program then prints out all the positive integer values from 1 up to the number. However, the order of the numbers is changed so that each pair or numbers is flipped. That is, 2 comes before 1, 4 before 3 and so forth. See the examples below for details.
+
+Sample output
+Please type in a number: 5
+2
+1
+4
+3
+5
+
+Sample output
+Please type in a number: 6
+2
+1
+4
+3
+6
+5
+"""
+number = int(input("Please type in a number: "))
+first_number = 1 
+second_number = 0
+
+while second_number < number:
+    second_number = first_number + 1
+    if second_number <= number:
+        print(f"{second_number}\n{first_number}")
+    elif second_number > number:
+        print(first_number)
+    first_number = second_number + 1
+
+"""
+Please write a program which asks the user to type in a number. The program then prints out the positive integers between 1 and the number itself, alternating between the two ends of the range as in the examples below.
+
+Sample output
+Please type in a number: 5
+1
+5
+2
+4
+3
+
+Sample output
+Please type in a number: 6
+1
+6
+2
+5
+3
+4
+"""
+# Write your solution here
+high_value = int(input("Please type in a number: "))
+low_value = 1
+
+while low_value < high_value:
+    print(low_value)
+    print(high_value)
+    low_value += 1
+    high_value -= 1
+if high_value == low_value:
+    print(low_value)
+
+def seven_brothers():
+    print("Aapo")
+    print("Eero")
+    print("Juhani")
+    print("Lauri")
+    print("Simeoni")
+    print("Timo")
+    print("Tuomas")
+
+if __name__ == "__main__":
+    """
+    Please write a function named seven_brothers. 
+    When the function is called, 
+    it should print out the names of the seven brothers in alphabetical order, 
+    as in the example below. 
+    See the similarly named exercise in part 1 for more details about the brothers.
+
+    Sample output
+    Aapo
+    Eero
+    Juhani
+    Lauri
+    Simeoni
+    Timo
+    Tuomas
+    """
+    pass
+def first_character(text):
+    print(text[0])
+# testing the function:
+if __name__ == "__main__":
+    """
+    The exercise contains the outline of the function first_character. 
+    Please complete it so that it prints out the first character of the string it takes as its argument.
+
+    def first_character(text):
+        # write your code here
+
+    # testing the function:
+    if __name__ == "__main__":
+        first_character('python')
+        first_character('yellow')
+        first_character('tomorrow')
+        first_character('heliotrope')
+        first_character('open')
+        first_character('night')
+    Sample output
+    p
+    y
+    t
+    h
+    o
+    n
+    """
+    first_character('python')
+    first_character('yellow')
+    first_character('tomorrow')
+    first_character('heliotrope')
+    first_character('open')
+    first_character('night')
+
+# Write your code here
+
+def mean(a,b,c):
+    print((a+b+c)/3)
+
+# Testing the function
+if __name__ == "__main__":
+    """
+    Please write a function named mean, which takes three integer arguments. The function should print out the arithmetic mean of the three arguments.
+
+    mean(5, 3, 1)
+    mean(10, 1, 1)
+    Sample output
+    3.0
+    4.0
+    """
+    mean(1, 2, 3)
+
+# Write your solution here
+def print_many_times(a_string, number):
+    count_number = 0
+    while count_number < number:
+        print(a_string)
+        count_number += 1
+
+# You can test your function by calling it within the following block
+if __name__ == "__main__":
+    print_many_times("python", 5)
+    """
+    Please write a function named print_many_times(text, times), which takes a string and an integer as arguments. 
+    The integer argument specifies how many times the string argument should be printed out:
+
+    print_many_times("hi", 5)
+
+    print()
+
+    text = "All Pythons, except one, grow up"
+    times = 3
+    print_many_times(text, times)
+    Sample output
+    hi
+    hi
+    hi
+    hi
+    hi
+
+    All Pythons, except one, grow up.
+    All Pythons, except one, grow up.
+    All Pythons, except one, grow up.
+    """
+# Write your solution here
+def hash_square(hash_num):
+    each_hash = 0
+    while each_hash < hash_num:
+        print("#"*hash_num)
+        each_hash += 1
+# You can test your function by calling it within the following block
+if __name__ == "__main__":
+    hash_square(5)
+
+
+    """
+    Please write a function named hash_square(length), which takes an integer argument. The function prints out a square of hash characters, and the argument specifies the length of the side of the square.
+
+    hash_square(3)
+    print()
+    hash_square(5)
+    Sample output
+    ###
+    ###
+    ###
+
+    #####
+    #####
+    #####
+    #####
+    #####
+    """
+
+# Write your solution here
+def chessboard(board_length):
+    row = 0
+    column = 0
+    row_num = column_num = 1
+    while row < board_length:
+        # alternate columns
+        while column < board_length:
+            print(column_num,end="")
+            if column_num == 1:
+                column_num = 0
+            else:
+                column_num = 1
+
+            column += 1
+        print()
+        column = 0
+
+        # alternate row num 
+        if row_num == 1:
+            row_num = 0
+        else:
+            row_num = 1
+        # update column num 
+        column_num = row_num
+        row += 1
+
+# Testing the function
+if __name__ == "__main__":
+    chessboard(3)
+    print()
+    chessboard(6)
+
+    """
+    Please write a function named chessboard, which prints out a chessboard made out of ones and zeroes.
+    The function takes an integer argument, which specifies the length of the side of the board. 
+    See the examples below for details:
+
+    chessboard(3)
+    print()
+    chessboard(6)
+    Sample output
+    101
+    010
+    101
+
+    101010
+    010101
+    101010
+    010101
+    101010
+    010101
+    """
+
+
+def squared(a_string, number):
+    row = 0 
+    column = 0
+    next_index = 0
+    square_string = ""
+    while row < number:
+
+        while column < number:
+            # switch to the beginning if out of range in string
+            if next_index > len(a_string)-1:
+                next_index = 0
+            square_string += a_string[next_index]
+            # go to next character in a string
+            next_index += 1
+
+            column += 1
+        print(square_string)
+
+        # updating all the variables
+        square_string = ""
+        column = 0
+        row += 1
+if __name__ == "__main__":
+
+    squared("ab", 3)
+    squared("aybabtu", 5)
+
+    """
+    Please write a function named squared, 
+    which takes a string argument and an integer argument, 
+    and prints out a square of characters as specified by the examples below.
+
+    squared("ab", 3)
+    print()
+    squared("aybabtu", 5)
+    Sample output
+    aba
+    bab
+    aba
+
+    aybab
+    tuayb
+    abtua
+    ybabt
+    uayba
+    """
+# Write your solution here
+key_editor = "visual studio code"
+editor = ""
+while editor != key_editor:
+    editor = input("Editor: ").lower()
+
+    if editor == "visual studio code":
+        print("an excellent choice!")
+    elif editor == "notepad" or editor == "word":
+        print("awful")
+    else:
+        print("not good")# Write your solution here
+
+def line(number, a_string):
+    if a_string == "":
+        print("*"*number)
+    else:
+        print(a_string[0]*number)
+# You can test your function by calling it within the following block
+if __name__ == "__main__":
+    line(5, "x")# Copy here code of line function from previous exercise
+
+def line(number, a_string):
+    if a_string == "":
+        print("*"*number)
+    else:
+        print(a_string[0]*number)
+
+def box_of_hashes(height):
+    # You should call function line here with proper parameters
+    each_height = 0
+    while each_height < height:
+        line(10, "#")
+        each_height += 1
+
+# You can test your function by calling it within the following block
+if __name__ == "__main__":
+    box_of_hashes(5)
+# Copy here code of line function from previous exercise
+
+def line(number, a_string):
+    if a_string == "":
+        print("*"*number)
+    else:
+        print(a_string[0]*number)
+
+def square_of_hashes(size):
+    # You should call function line here with proper parameters
+    count_height = 0
+    while count_height < size:
+        line(size, "#")
+        count_height += 1
+
+# You can test your function by calling it within the following block
+if __name__ == "__main__":
+    square_of_hashes(5)
+# Copy here code of line function from previous exercise
+
+def line(number, a_string):
+    if a_string == "":
+        print("*"*number)
+    else:
+        print(a_string[0]*number)
+
+def square(size, character):
+    # You should call function line here with proper parameters
+    row = 0
+    while row < size:
+        line(size, character)
+        row += 1
+# You can test your function by calling it within the following block
+if __name__ == "__main__":
+    square(5, "x")# Copy here code of line function from previous exercise
+
+def line(number, a_string):
+    if a_string == "":
+        print("*"*number)
+    else:
+        print(a_string[0]*number)
+
+def triangle(size):
+    # You should call function line here with proper parameters
+    height = 0
+    while height <= size:
+        line(height, "#")
+        height += 1
+
+# You can test your function by calling it within the following block
+if __name__ == "__main__":
+    triangle(5)
+# Copy here code of line function from previous exercise and use it in your solution
+
+def line(number, a_string):
+    if a_string == "":
+        print("*"*number)
+    else:
+        print(a_string[0]*number)
+
+def shape(height, tri_char, length, rect_char):
+    count_height = 0
+    # triangle
+    while count_height <= height:
+        line(count_height, tri_char)
+        count_height += 1
+    # rectangle 
+    count_height = 0
+    while count_height < length:
+        line(height, rect_char)
+        count_height += 1
+# You can test your function by calling it within the following block
+if __name__ == "__main__":
+    shape(5, "x", 2, "o")
+# Write your solution here
+def spruce(height):
+    space = height - 1
+    column = 1
+    print("a spruce!")
+    while space >= 0:
+        # column will be odd number 
+        spaces = " " * space
+        stars = column * "*"
+        print(f"{spaces}{stars}")
+        column += 2
+        space -= 1 
+    print((height - 1) * " " + "*")
+# You can test your function by calling it within the following block
+if __name__ == "__main__":
+    spruce(5)# Write your solution here
+def find_max(first_num, second_num):
+    if first_num < second_num:
+        first_num = second_num
+    return first_num
+def greatest_number(first_numb, second_numb, third_numb):
+    return find_max(find_max(first_numb, second_numb), third_numb)
+
+# You can test your function by calling it within the following block
+if __name__ == "__main__":
+    greatest = greatest_number(5, 4, 8)
+    print(greatest)# Write your solution here
+def same_chars(a_string, pos_1, pos_2):
+    string_len = len(a_string)
+
+    if string_len > pos_1 and pos_2 < string_len:
+        return a_string[pos_1] == a_string[pos_2]
+    return False
+# You can test your function by calling it within the following block
+if __name__ == "__main__":
+    print(same_chars("coder", 1, 2))# Write your solution here
+def first_word(sentence):
+    space_indx = sentence.find(" ")
+    if space_indx >= 0:
+        return sentence[:space_indx]
+    else:
+        return sentence
+
+def second_word(sentence):
+    count_word = 0
+    word_len = 0
+    word = ""
+    while count_word < 2:
+        word = first_word(sentence[word_len:])
+        word_len += len(word) + 1
+        count_word += 1
+    return word
+
+def last_word(sentence):
+
+    word_len = 0
+    current_word = sentence
+    found_word = sentence
+    while current_word != "":
+        found_word = current_word
+
+        current_word = first_word(sentence[word_len:])
+        word_len += len(current_word) + 1
+
+    return found_word
+# You can test your function by calling it within the following block
+if __name__ == "__main__":
+    sentence = "once upon a time there was a programmer"
+    print(first_word(sentence))
+    print(second_word(sentence))
+    print(last_word(sentence))# Write your solution here
+
+numb_list = [1,2,3,4,5]
+index = value = 0
+while index >= 0:
+    
+    index = int(input("Index: "))
+    if index >= 0 and 0 <= index < len(numb_list):
+        value = int(input("New value: "))
+        numb_list[index] = value
+        print(numb_list)
+# Write your solution here
+
+amount_item = int(input("How many items: "))
+count_item = 0 
+item_list = []
+while count_item < amount_item:
+    item_list.append(int(input(f"Item {count_item + 1}: "))
+)
+    count_item += 1
+print(item_list)# Write your solution here
+num_list = []
+commands = ""
+
+value = 1
+while commands != "x":
+    print(f"The list is now {num_list}")
+    commands = input("a(d)d, (r)emove or e(x)it: ")
+    command = commands.lower()
+    if command == "d":
+        num_list.append(value)
+        value += 1
+    elif command == "r":
+        value = num_list.pop()
+print("Bye!")
+
+# Write your solution here
+word = ""
+words = []
+keep_typing = False
+while keep_typing == False:
+    word = input("Word: ") 
+    if word in words:
+        keep_typing = True
+    else:
+        words.append(word) 
+print(f"You typed in {len(words)} different words")
+# Write your solution here
+num_list = []
+num = -100
+while num != 0:
+    num = int(input("New item: "))
+
+    if num != 0:
+        num_list.append(num)
+        print(f"The list now: {num_list}")
+        print(f"The list in order: {sorted(num_list)}")
+    
+print("Bye!")
+
+# Write your solution here
+def length(my_list):
+    return len(my_list)
+# You can test your function by calling it within the following block
+if __name__ == "__main__":
+    my_list = [3, 6, -4]
+    result = length(my_list)
+    print(result)# Write your solution here
+def mean(my_list:list):
+    return sum(my_list)/len(my_list)
+# You can test your function by calling it within the following block
+if __name__ == "__main__":
+    my_list = [3, 6, -4]
+    result = mean(my_list)
+    print(result)# Write your solution here
+def range_of_list(my_list:list):
+    return max(my_list) - min(my_list)
+# You can test your function by calling it within the following block
+if __name__ == "__main__":
+    my_list = [3, 6, -4]
+    result = range_of_list(my_list)
+    print(result)# Write your solution here
+a_string = input("Please type in a string: ")
+
+for char in a_string:
+    print(f"{char}\n*")# Write your solution here
+
+pos_number = int(input("Please type in a positive integer: "))
+
+for number in range(-pos_number, pos_number+1):
+    if number != 0:
+        print(number)# Write your solution here
+
+def list_of_stars(stars):
+    for star in stars:
+        print("*"*star)# Write your solution here
+def anagrams(string_first:str, string_second:str):
+    return sorted(string_first) == sorted(string_second)# Write your solution here
+def palindromes(word:str):
+    left = 0
+    right = len(word)-1
+    is_palindrome = True
+    while left < right and is_palindrome == True:
+        if word[left] != word[right]:
+            is_palindrome = False
+        left += 1
+        right -= 1
+    return is_palindrome
+
+is_palindrome = False
+while is_palindrome == False:
+    word = input("Please type in a palindrome: ")
+    is_palindrome = palindromes(word)
+    if is_palindrome == False:
+        print("that wasn't a palindrome")
+    else:
+        print(f"{word} is a palindrome!")
+
+# Note, that at this time the main program should not be written inside
+# if __name__ == "__main__":
+# block!
+# Write your solution here
+
+def sum_of_positives(number:list[int]):
+    pos_sum = 0 
+    for each_num in number:
+        if each_num > 0:
+            pos_sum += each_num 
+    return pos_sum
+# Write your solution here
+
+def even_numbers(numbers:list[int])->list[int]:
+
+    even_list = []
+
+    for number in numbers:
+        if number%2 == 0:
+            even_list.append(number)
+    return even_list# Write your solution here
+def list_sum(a:list[int], b:list[int])->list[int]:
+    sum_list = []
+
+    for index in range(len(a)):
+        sum_list.append(a[index]+b[index])
+    return sum_list# Write your solution here
+def distinct_numbers(numbers:list[int])->list[int]:
+
+    distinct_list = []
+
+    for number in numbers:
+        if number not in distinct_list:
+            distinct_list.append(number)
+
+    return sorted(distinct_list)# Write your solution here
+
+def length_of_longest(my_list:list[str])->int:
+    max_len = 0
+    for a_string in my_list:
+        current_len = len(a_string)
+        if current_len > max_len:
+            max_len = current_len
+    return max_len# Write your solution here
+def shortest(my_list:list[str])->str:
+    min_len = 10000
+    min_str = ""
+
+    for a_string in my_list:
+
+        current_len = len(a_string)
+
+        if current_len < min_len:
+            min_len = current_len
+            min_str = a_string
+
+    return min_str
+# Write your solution here
+
+def length_of_longest(my_list:list[str])->int:
+    max_len = 0
+    for a_string in my_list:
+        current_len = len(a_string)
+        if current_len > max_len:
+            max_len = current_len
+    return max_len
+
+def all_the_longest(my_string:list[str])->list[str]:
+    longest_string = []
+    max_len = length_of_longest(my_string)
+    for string in my_string:
+        if len(string) == max_len:
+            longest_string.append(string)
+    return longest_string
+if __name__ == "__main__":
+    """
+    #Clever solution
+    def length_of_longest(names: list):
+        longest = 0
+    
+        for name in names:
+            if len(name) > longest:
+            longest = len(name)
+    
+        return longest
+    # Write your solution here
+    """# Write your solution here
+def formatted(my_list:list[float])->list[float]:
+    new_list = []
+
+    for num in my_list:
+        new_list.append(f"{num:.2f}")
+    return new_list# Write your solution here
+
+def everything_reversed(my_string:list[str])->list[str]:
+
+    reverse_str = []
+    for word in my_string:
+        reverse_str.append(word[::-1])
+    return reverse_str[::-1]# Write your solution here
+def most_common_character(a_string:str)->str:
+
+    max_freq = 0
+    max_freq_char = ""
+    for char in a_string:
+        current_freq = a_string.count(char) - 1
+        if current_freq > max_freq:
+            max_freq = current_freq
+            max_freq_char = char 
+    return max_freq_char
+
+if __name__ == '__main__':
+    """
+    clever
+    def most_common_character(my_string: str):
+    most_common = my_string[0]
+    for character in my_string:
+        if my_string.count(character) > my_string.count(most_common):
+            most_common = character
+ 
+    return most_common
+    """# Write your solution here
+
+def no_vowels(my_string:str)->str:
+    vowels = "aeiou"
+    no_vowel = ""
+    for char in my_string:
+        if char not in vowels:
+            no_vowel += char
+    return no_vowel# Write your solution here
+def no_shouting(my_list:list[str])->list[str]:
+    
+    small_list = []
+    for word in my_list:
+        if not word.isupper():
+            small_list.append(word)
+    return small_list# Write your solution here
+
+def longest_series_of_neighbours(numbers:list[int])->int:
+
+    max_len = 0
+    current_len = 0
+    different = 0
+    for index in range(len(numbers)):
+        different = abs(numbers[index-1] - numbers[index])
+        if different == 1:
+            current_len += 1
+        else:
+            current_len = 1
+        
+        if current_len > max_len:
+            max_len = current_len
+
+    return max_len# Write your solution here
+
+
+# calculate exercise to points
+def completed_exercise_to_points(completed_exercise):
+    for indx in range(len(completed_exercise)):
+        completed_exercise[indx] = completed_exercise[indx] // 10
+
+# convert exam + exercise points to grade
+def get_grade(exam_points, exercise_points):
+    grades = []
+    given_grades = [[0,14,0],[15,17,1],[18,20,2],[21,23,3],[24,27,4],[28,30,5]]
+    for indx in range(len(exam_points)):
+        # less than 10 point exam, fail the student, regardless of total number points
+        if exam_points[indx] >= 10:
+            point = exam_points[indx] + exercise_points[indx]
+            for grade in given_grades:
+                if grade[0] <= point <=grade[1]:
+                    grades.append(grade[2])
+                    break
+        else:
+            grades.append(0)
+    return grades
+# get input from the user
+def get_exercise_exam_points(exam_points, exercise_points):
+    points = None
+    
+    while points != "":
+        points = input("Exam points and exercises completed: ")
+        if points != "":
+            points = points.split(" ")
+            # convert to integer 
+            exam_points.append(int(points[0]))
+            exercise_points.append(int(points[1]))
+
+    
+    if len(exercise_points) > 0: 
+        # convert exercise completion to points 
+        completed_exercise_to_points(exercise_points)
+
+# calculate satistics
+def calculate_satistics(exam_points, exercise_points, grades):
+    satistics = []
+    #calculate points average 
+    points_average = (sum(exam_points) + sum(exercise_points)) / len(exam_points)
+
+    satistics.append(points_average)
+
+    #calculate pass percentage 
+    count_passing_grade = 0
+    for grade in grades:
+        if grade > 0:
+            count_passing_grade += 1
+    pass_percentage = (count_passing_grade/len(grades)) * 100
+    satistics.append(pass_percentage)
+
+    return satistics
+
+    
+# print statistics 
+def print_statistics(satistics, grades):
+    point_average, pass_percent = satistics[0],satistics[1]
+    print("Statistics:")
+    print(f"Points average: {point_average:.1f}\nPass percentage: {pass_percent:.1f}")
+    print(f"Grade distribution:\n"
+   +"  5: "+grades.count(5)*"*"+"\n"
+   +"  4: "+grades.count(4)*"*"+"\n"
+   +"  3: "+grades.count(3)*"*"+"\n"
+   +"  2: "+grades.count(2)*"*"+"\n"
+   +"  1: "+grades.count(1)*"*"+"\n"
+   +"  0: "+grades.count(0)*"*")
+   
+# main function for organizing all the pieces 
+def main():
+    exam_points = []
+    exercise_points = []
+    # get user input exam and exercise points 
+    get_exercise_exam_points(exam_points, exercise_points)
+    
+    # get grades
+    grades = get_grade(exam_points, exercise_points)
+
+    # calculate the satistic 
+    # satiscis = [points_average, pass_percentage]
+    satistics = calculate_satistics(exam_points,exercise_points,grades)
+    
+    # print the satistic 
+    print_statistics(satistics, grades)
+
+main()# Write your solution here
+
+def longest(strings: list[str])->list[str]:
+    longest_strings = strings[0]
+    for a_string in strings:
+        if len(a_string) >= len(longest_strings):
+            longest_strings = a_string
+    return longest_strings
+        
+# Write your solution here
+def count_matching_elements(my_matrix:list[list[int]], element:int)->int:
+
+    freq_element = 0
+
+    for num_list in my_matrix:
+
+        freq_element += num_list.count(element)
+
+    return freq_element
+
+# Write your solution here
+def who_won(game_board: list[list[int]])->int:
+    player_1 = 0
+    player_2 = 0
+    for board in game_board:
+        for player in board:
+            if  player == 1:
+                player_1 += 1
+            elif player == 2:
+                player_2 += 1
+    value = 1
+    if player_1 == player_2:
+        value = 0
+    elif player_1 < player_2:
+        value = 2
+    
+    return value# Write your solution here
+def row_correct(sudoku: list, row_no: int):
+    valid_soduku = True 
+    number = 1
+    while number <= 9 and valid_soduku == True:
+        if sudoku[row_no].count(number) >= 2:
+            valid_soduku = False
+        number += 1
+    return valid_soduku
+            # Write your solution here
+def column_correct(sudoku: list, column_no: int):
+    valid_soduku = True 
+    number = 1
+    freq_column_num = []
+    for row in sudoku:    
+        number = row[column_no]
+        if number > 0 and number in freq_column_num:
+            valid_soduku = False
+            break
+        else:
+            freq_column_num.append(number)
+    return valid_soduku
+
+def block_correct(sudoku: list, row_no: int, column_no: int)->bool:
+    
+
+    # check duplicate for row 
+    # 1-9
+    valid_soduku = True 
+    freq_number = []
+    for row_indx in range(row_no, row_no + 3):
+        for column_indx in range(column_no, column_no + 3):
+            number = sudoku[row_indx][column_indx] 
+            if number > 0 and number in freq_number:
+                valid_soduku = False
+                break
+            else:
+                freq_number.append(number)
+    return valid_soduku 
+# Write your solution here
+def row_correct(sudoku: list, row_no: int):
+    valid_soduku = True 
+    number = 1
+    while number <= 9 and valid_soduku == True:
+        if sudoku[row_no].count(number) >= 2:
+            valid_soduku = False
+        number += 1
+    return valid_soduku
+            
+# Write your solution here
+def column_correct(sudoku: list, column_no: int):
+    valid_soduku = True 
+    number = 1
+    freq_column_num = []
+    for row in sudoku:    
+        number = row[column_no]
+        if number > 0 and number in freq_column_num:
+            valid_soduku = False
+            break
+        else:
+            freq_column_num.append(number)
+    return valid_soduku
+
+def block_correct(sudoku: list, row_no: int, column_no: int)->bool:
+    # check duplicate for row 
+    # 1-9
+    valid_soduku = True 
+    freq_number = []
+    for row_indx in range(row_no, row_no + 3):
+        for column_indx in range(column_no, column_no + 3):
+            number = sudoku[row_indx][column_indx] 
+            if number > 0 and number in freq_number:
+                valid_soduku = False
+                break
+            else:
+                freq_number.append(number)
+    return valid_soduku 
+
+def sudoku_grid_correct(sudoku: list[int]):
+    
+    blocks = [(0, 0), (0, 3), (0, 6), (3, 0), (3, 3), (3, 6), (6, 0), (6, 3), (6, 6)]
+    for block in blocks:
+        row_no = block[0]
+        column_no = block[1]
+        block_check = block_correct(sudoku, row_no, column_no)
+        if block_check == False:
+            return False
+    
+    for row_no in range(9):
+        
+        row_check = row_correct(sudoku, row_no)
+        if row_check == False:
+            return False 
+
+        for column_no in range(9):
+            column_check = column_correct(sudoku, column_no)
+
+            if column_check == False:
+                return False    
+    return True# Write your solution here
+def double_items(numbers: list[int])->list[int]:
+    double_nums = []
+
+    for number in numbers:
+        double_nums.append(number * 2)
+    return double_nums# Write your solution here
+def remove_smallest(numbers: list[int]):
+    smallest_number = numbers[0]
+    # find the smallest number in a list 
+    for number in numbers:
+        if smallest_number > number:
+            smallest_number = number
+    # then remove that number from the list
+    numbers.remove(smallest_number)# Write your solution here
+
+def print_sudoku(sudoku:list[list[int]]):
+    dashes = ""
+    for row_indx in range(9):
+        for column_indx in range(9):
+            if sudoku[row_indx][column_indx] > 0:
+                dashes += str(sudoku[row_indx][column_indx])
+            else:
+                dashes += "_"
+            dashes += " "
+            if (column_indx+1) % 3 == 0:
+                dashes += " "
+        print(f"{dashes}")
+        if (row_indx+1) % 3 == 0:
+            print()
+        dashes = ""
+def add_number(sudoku: list, row_no: int, column_no: int, number:int):
+    sudoku[row_no][column_no] = number
+# Write your solution here
+def copy_and_add(sudoku: list, row_no: int, column_no: int, number: int)->list[list[int]]:
+    sudoku_copy = []
+    for numbers in sudoku:
+        sudoku_copy.append(numbers[:])
+    sudoku_copy[row_no][column_no] = number 
+
+    return sudoku_copy
+# Write your solution here
+def play_turn(game_board: list, x: int, y: int, piece: str)->bool:
+
+    min_size = 0
+    max_size = 3
+    if min_size <= x < max_size and min_size <= y < max_size:
+        slot = game_board[y][x] 
+        if slot == "":
+            game_board[y][x] = piece
+            return True 
+    return False 
+
+            
+# Write your solution here
+def transpose(matrix: list[list[int]]):
+
+    temp_value = 0
+    
+    for row_indx in range(len(matrix)):
+        
+        for column_indx in range(row_indx, len(matrix)):
+
+            temp_value = matrix[row_indx][column_indx]
+            matrix[row_indx][column_indx] = matrix[column_indx][row_indx]
+            matrix[column_indx][row_indx] = temp_value
+
+
+# Write your solution here
+def times_ten(start_index: int, end_index: int):
+    dict_numbers = {}
+    for key in range(start_index, end_index+1):
+        dict_numbers[key] = key * 10
+
+    return dict_numbers# Write your solution here
+def factorials(n: int)->int:
+
+    factor = 1
+    dict_fact = {}
+    for key in range(1, n+1):
+        factor *=  key
+        dict_fact[key] = factor
+    return dict_fact
+
+
+        # Write your solution here
+
+def histogram(a_string:str):
+    freq_table = {}
+    for char in a_string:
+        if char not in freq_table:
+            freq_table[char] = 0
+        freq_table[char] += 1
+    # print the star or histogram of each character
+
+    for key, value in freq_table.items():
+        stars = "*" * value
+        print(f"{key} {stars}")
+# Write your solution here
+
+phone_book = {}
+command = 0
+while command != 3:
+    command = int(input("command (1 search, 2 add, 3 quit): "))
+
+    # add phone number in phone book
+    if command == 1:
+        name = input("name: ")
+        if name not in phone_book:
+            print("no number")
+        else:
+            print(phone_book[name])
+    elif command == 2:
+        name = input("name: ")
+        phone = input("number: ")
+        phone_book[name] = phone
+        print("ok!")
+    elif command == 3:
+        print("quitting...")# Write your solution here
+
+phone_book = {}
+command = 0
+while command != 3:
+    command = int(input("command (1 search, 2 add, 3 quit): "))
+
+    # add phone number in phone book
+    if command == 1:
+        name = input("name: ")
+        if name not in phone_book:
+            print("no number")
+        else:
+            for ph_number in phone_book[name]:
+                print(ph_number)
+    elif command == 2:
+        name = input("name: ")
+        phone = input("number: ")
+        if name not in phone_book:
+            phone_book[name] = []
+        phone_book[name].append(phone)
+        print("ok!")
+    elif command == 3:
+        print("quitting...")# Write your solution here
+def invert(dictionary: dict):
+    invert_dict = {}
+    # copy dictionary to invert dict 
+    for key, value in dictionary.items():
+        invert_dict[value] = key 
+    for key, value in invert_dict.items():
+        del dictionary[value]
+        dictionary[key] = value
+# Write your solution here
+def dict_of_numbers()->dict:
+    numbers = { 0 : 'zero', 1 : 'one', 2 : 'two', 3 : 'three', 4 : 'four', 5 : 'five',
+          6 : 'six', 7 : 'seven', 8 : 'eight', 9 : 'nine', 10 : 'ten',
+          11 : 'eleven', 12 : 'twelve', 13 : 'thirteen', 14 : 'fourteen',
+          15 : 'fifteen', 16 : 'sixteen', 17 : 'seventeen', 18 : 'eighteen',
+          19 : 'nineteen', 20 : 'twenty',
+          30 : 'thirty', 40 : 'forty', 50 : 'fifty', 60 : 'sixty',
+          70 : 'seventy', 80 : 'eighty', 90 : 'ninety' }
+    all_dict_numbers = {}
+    for key in range(0,100):
+        
+        if key < 20:
+            all_dict_numbers[key] = numbers[key]
+        elif key < 100:
+            if key%10 == 0:
+                all_dict_numbers[key] = numbers[key]
+            else:
+                all_dict_numbers[key] = numbers[(key//10)*10]+ "-" + numbers[key%10]
+    return all_dict_numbers# Write your solution here
+def add_movie(database: list[dict], name: str, director: str, year: int, runtime: int):
+    """
+    name
+    director
+    year
+    runtime
+    """
+    movie_info = {"name":name, "director":director,"year":year, "runtime":runtime}
+    # check if the movie exist in the data if not add 
+    database.append(movie_info)
+    # Write your solution here
+def find_movies(database: list, search_term: str):
+    collection_found = []
+
+    for movie in database:
+        if search_term.lower() in movie["name"].lower():
+            collection_found.append(movie)
+    
+    return collection_found# Write your solution here
+def create_tuple(x: int, y: int, z: int)->tuple:
+    return(min(x,y,z),max(x,y,z),x+y+z)
+
+if __name__ == "__main__":
+    print(create_tuple(5, 3, -1))# Write your solution here
+def oldest_person(people: list):
+
+
+    max_age = people[0]
+    for person in people:
+
+        if person[1] < max_age[1]:
+            max_age = person
+
+    return max_age[0]
+# Write your solution here
+def older_people(people: list, year: int)->list:
+    olders = []
+    for person in people:
+        if person[1] < year:
+            olders.append(person[0])
+    return olders # Write your solution here
+def add_student(students:dict, name: str):
+    students[name] = {}
+
+def print_student(students:dict, name: str):
+    if name not in students:
+        print(f"{name}: no such person in the database")
+    elif students[name] == {}:
+        print(f"{name}:\n no completed courses")
+    else:
+        total_courses = len(students[name])
+        print(f"{name}:\n {total_courses} completed courses:")
+        grade_total = 0
+        for course_name, mark in students[name].items():
+
+            print(f"  {course_name} {mark[1]}")
+            grade_total += mark[1]
+        average_grade = grade_total/total_courses
+        print(f" average grade {average_grade}")
+        
+def add_course(students:dict, name:str, completed_course:tuple):
+    course_name = completed_course[0]
+    course_mark = completed_course[1]
+
+    if course_mark > 0:
+        # check if the course exist in student data
+        if course_name in students[name]:
+            # if completed same course's mark are too low then don't bother adding that course
+            if course_mark < students[name][course_name][1]:
+                return
+        # other wise update new course or replace same course with better mark
+        students[name][course_name] = completed_course
+def summary(students:dict):
+    student_count = len(students)
+    max_average = {"name":"","average":0.0}
+    max_courses = {"name":"", "courses":0}
+
+    grade_total = 0
+    for student_name, courses in students.items():
+        course_amount = len(courses)
+        if max_courses["courses"] < len(courses):
+            max_courses["courses"] = len(courses)
+            max_courses["name"] = student_name
+        
+        # calculate the average
+        for course_name, course in courses.items():
+            grade_total += course[1]
+        current_average = grade_total/course_amount
+        if max_average["average"] < current_average:
+            max_average["average"] = current_average
+            max_average["name"] = student_name
+        grade_total = 0
+        
+
+
+        
+    print(f"students {student_count}")
+    print(f"most courses completed {max_courses['courses']} {max_courses['name']}")
+    print(f"best average grade {max_average['average']} {max_average['name']}")
+
+# Write your solution here
+
+patterns = []
+alphabets = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+# Get your number of layers
+number = int(input("Layers: "))
+if 2<=number<=26:
+
+    for size in range(number):
+        # update more layer with latest character or pattern horizontally
+        for pattern_indx in range(len(patterns)):
+            # old layers become the internal laer
+            mid_pattern = patterns[pattern_indx]
+            # current character become outer layer 
+            side_pattern = alphabets[size]
+            # srround them internal layer with outer layer till the end of a pattern
+            patterns[pattern_indx] = side_pattern + mid_pattern + side_pattern
+        
+
+        # get and update new layers from the bottom
+        patterns.append((2*size+1)*alphabets[size])
+
+        # mirror latest character layer from bottom to the top vertically
+        if size != 0:
+            patterns.insert(0, (2*size+1)*alphabets[size])
+
+
+    # print all the pattern
+    for pattern in patterns:
+        print(pattern)# write your solution here
+def largest():
+    max_number = 0
+    with open("numbers.txt") as numbers:
+
+        for number in numbers:
+            current_number = int(number)
+            if max_number < current_number:
+                max_number = current_number
+    return(max_number)
+
+# write your solution here
+
+def read_fruits():
+    fruits_name_price = {}
+    with open("fruits.csv") as fruits:
+        for fruit in fruits:
+            fruit = fruit.replace("\n","")
+            fruit_datas = fruit.split(";")
+            fruits_name_price[fruit_datas[0]] = float(fruit_datas[1])
+        
+
+    return(fruits_name_price)
+# write your solution here
+def get_matrix():
+    int_matrix = []
+    with open("matrix.txt") as matrix:
+        for number in matrix:
+            number = number.replace("\n","")
+            each_row = number.split(",")
+            # convert to integer
+            for indx in range(len(each_row)):
+                each_row[indx] = int(each_row[indx])
+            int_matrix.append(each_row)
+    return int_matrix
+
+
+def matrix_max():
+    greatest_value = 0
+    matrix = get_matrix()
+    for number in matrix:
+        greatest_value = max(greatest_value, max(number))
+    return(greatest_value)
+def row_sums():
+    row_sum_list = []
+    matrix = get_matrix()
+    for number in matrix:
+        row_sum_list.append(sum(number))
+    return(row_sum_list)
+
+
+
+def matrix_sum():
+    total_sum = 0
+    matrix = get_matrix()
+    for number in matrix:
+        total_sum += sum(number)
+    return(total_sum)# write your solution here
+
+if False:
+    student_info = input("Student information: ")
+    exercise_data = input("Exercises completed: ")
+else:
+    # now this is the False branch, and is never executed
+    student_info = "students1.csv"
+    exercise_data = "exercises1.csv"
+students = {}
+exercises = {}
+with open(student_info) as student_data:
+    for student in student_data:
+        student = student.split(";")
+        if student[0] != "id":
+            students[int(student[0])] = student[1].strip() + " " + student[2].strip()
+with open(exercise_data) as exercise_data:
+    for exercise in exercise_data:
+        exercise = exercise.split(";")                                                 
+        if exercise[0] != "id":
+            # convert to list of integer
+            for indx in range(len(exercise)):
+                exercise[indx] = int(exercise[indx])
+            # assigned unique id with list of exercises
+            exercises[int(exercise[0])]=exercise[1:]
+# print student name and completed exercises
+for id, name in students.items():
+    print(f"{name} {sum(exercises[id])}")# write your solution here
+def get_student_data(student_info):
+    students = {}
+    with open(student_info) as student_data:
+        for student in student_data:
+            student = student.split(";")
+            if student[0] != "id":
+                students[int(student[0])] = student[1].strip() + " " + student[2].strip()
+    return students
+
+def get_exercise_data(exercise_data):
+    exercises = {}
+    with open(exercise_data) as exercise_data:
+        for exercise in exercise_data:
+            exercise = exercise.split(";")                                                 
+            if exercise[0] != "id":
+                # convert to list of integer
+                for indx in range(len(exercise)):
+                    exercise[indx] = int(exercise[indx])
+                # assigned unique id with list of exercises
+                exercises[exercise[0]]=exercise[1:]
+    return exercises
+def get_exam_data(exam_data):
+    exam_points = {}
+    with open(exam_data) as exam_data:
+        for exam in exam_data:
+            exam = exam.split(";")
+            if exam[0] != "id":
+                # convert to list of integer
+                
+                for indx in range(len(exam)):
+                    exam[indx] = int(exam[indx])
+                exam_points[exam[0]] = exam[1:]
+    return exam_points
+def get_exercise_points(completed_exercise):
+    
+    exercise_points = {}
+    
+    for id, exercise in completed_exercise.items():
+        exercise_points[id] = sum(exercise) // 4
+
+    return exercise_points
+def get_grade(point):
+    found_grade = 0
+    grade_range = [[0,14,0],[15,17,1],[18,20,2],[21,23,3],[24,27,4]]
+    if point >= 28:
+        found_grade = 5
+    else:
+        for grade in grade_range:
+            if grade[0] <= point <= grade[1]:
+                found_grade = grade[2]
+                break
+        
+    return found_grade
+def main():
+    if False:
+        student_info = input("Student information: ")
+        exercise_data = input("Exercises completed: ")
+        exam_data = input("Exam points: ")
+    else:
+        # now this is the False branch, and is never executed
+        student_info = "students1.csv"
+        exercise_data = "exercises1.csv"
+        exam_data = "exam_points1.csv"
+    student_data = get_student_data(student_info) 
+    completed_exercise = get_exercise_data(exercise_data)
+    exam_points = get_exam_data(exam_data)
+    
+    # get exercise points 
+    exercises_points = get_exercise_points(completed_exercise)
+    
+    # print student name and completed exercises
+    for id, name in student_data.items():
+
+        # get exercise point
+        point = sum(exam_points[id]) + exercises_points[id]
+
+        # find grade 
+        grade = get_grade(point)
+
+        print(f"{name} {grade}")
+    
+
+
+main()
+# write your solution here
+def get_student_data(student_info):
+    students = {}
+    with open(student_info) as student_data:
+        for student in student_data:
+            student = student.split(";")
+            if student[0] != "id":
+                students[int(student[0])] = student[1].strip() + " " + student[2].strip()
+    return students
+
+def get_exercise_data(exercise_data):
+    exercises = {}
+    with open(exercise_data) as exercise_data:
+        for exercise in exercise_data:
+            exercise = exercise.split(";")                                                 
+            if exercise[0] != "id":
+                # convert to list of integer
+                for indx in range(len(exercise)):
+                    exercise[indx] = int(exercise[indx])
+                # assigned unique id with list of exercises
+                exercises[exercise[0]]=exercise[1:]
+    return exercises
+def get_exam_data(exam_data):
+    exam_points = {}
+    with open(exam_data) as exam_data:
+        for exam in exam_data:
+            exam = exam.split(";")
+            if exam[0] != "id":
+                # convert to list of integer
+                
+                for indx in range(len(exam)):
+                    exam[indx] = int(exam[indx])
+                exam_points[exam[0]] = exam[1:]
+    return exam_points
+def get_exercise_points(completed_exercise):
+    
+    exercise_points = {}
+    
+    for id, exercise in completed_exercise.items():
+        exercise_points[id] = sum(exercise) // 4
+
+    return exercise_points
+def get_grade(point):
+    found_grade = 0
+    grade_range = [[0,14,0],[15,17,1],[18,20,2],[21,23,3],[24,27,4]]
+    if point >= 28:
+        found_grade = 5
+    else:
+        for grade in grade_range:
+            if grade[0] <= point <= grade[1]:
+                found_grade = grade[2]
+                break
+        
+    return found_grade
+
+def main():
+    if False:
+        student_info = input("Student information: ")
+        exercise_data = input("Exercises completed: ")
+        exam_data = input("Exam points: ")
+    else:
+        # now this is the False branch, and is never executed
+        student_info = "students1.csv"
+        exercise_data = "exercises1.csv"
+        exam_data = "exam_points1.csv"
+    student_data = get_student_data(student_info) 
+    completed_exercise = get_exercise_data(exercise_data)
+    exam_points = get_exam_data(exam_data)
+    
+    # get exercise points 
+    exercises_points = get_exercise_points(completed_exercise)
+
+    
+    name_width = 30
+    title_width = 10
+    print(f"{'name':{name_width}}{'exec_nbr':{title_width}}{'exec_pts.':{title_width}}{'exm_pts.':{title_width}}{'tot_pts.':{title_width}}{'grade':{title_width}}")
+    # print student name and completed exercises
+    for id, name in student_data.items():
+        sum_of_exampoints = sum(exam_points[id])
+        # get point from each exam and exercise
+        point = sum_of_exampoints + exercises_points[id]
+
+        # find grade 
+        grade = get_grade(point)
+
+        sum_of_exercise = sum(completed_exercise[id])
+
+        print(f"{name:{name_width}}{sum_of_exercise:<{title_width}}{exercises_points[id]:<{title_width}}{sum_of_exampoints:<{title_width}}{point:<{title_width}}{grade:<{title_width}}")
+    
+
+
+main()# write your solution here
+
+def get_correct_words(file_name):
+    correct_words = []
+    with open(file_name) as words:
+
+        for word in words:
+            correct_words.append(word.strip().lower())
+    return correct_words
+
+def main():
+    user_input = input("Write text: ").split()
+    highlighted_input = ""
+    #user_input = "We use ptython to make a spell checker".split()
+
+    correct_words = get_correct_words("wordlist.txt")
+
+
+    for word in user_input:
+
+        if (word.lower() in correct_words) == False:
+            word = f"*{word}*"
+        highlighted_input += word + " "
+    print(highlighted_input)
+
+main()
+
+
+# Write your solution here
+def get_recipie(file_name: str):
+    recipie = []
+    organize_recipie = []
+    with open(file_name) as recipie_data:
+        for each_recipie in recipie_data:
+            each_recipie = each_recipie.strip()
+
+            if each_recipie == "":
+                organize_recipie.append(recipie)
+                recipie = []
+            else:
+                recipie.append(each_recipie)
+        organize_recipie.append(recipie)
+
+    return organize_recipie
+
+def search_by_name(filename: str, word: str):
+    list_of_recipie = []
+    # search the recipie
+    organize_recipie = get_recipie(filename)
+
+    for recipies in organize_recipie:
+
+        if word in recipies[0].lower():
+            list_of_recipie.append(recipies[0])
+
+    return list_of_recipie
+
+def search_by_time(filename: str, prep_time: int):
+    recipie_name_time = []
+    organize_recipie = get_recipie(filename)
+    for recipes in organize_recipie:
+        current_prep_time = int(recipes[1])
+        if current_prep_time <= prep_time:
+            recipie_name = recipes[0]
+            current_prep_time = recipes[1]
+            recipie_name_time.append(f"{recipie_name}, preparation time {current_prep_time} min")
+    return recipie_name_time
+
+def search_by_ingredient(filename: str, ingredient: str):
+    recipie_name_time = []
+    organize_recipie = get_recipie(filename)
+    for recipes in organize_recipie:
+        current_prep_time = int(recipes[1])
+        if ingredient in recipes[2:]:
+            recipie_name = recipes[0]
+            current_prep_time = recipes[1]
+            recipie_name_time.append(f"{recipie_name}, preparation time {current_prep_time} min")
+    return recipie_name_time# tee ratkaisu tänne
+# Write your solution here
+
+def get_station_data(filename:str):
+    station_data = {}
+    with open(filename) as station:
+        for data in station:
+            data = data.split(";")
+            if data[0] != "Longitude":
+                station_data[data[3]] = (float(data[0]),float(data[1]))
+
+    return station_data
+
+def distance(stations: dict, station1: str, station2: str):
+    import math
+    longitude1 = stations[station1][0]
+    latitude1 = stations[station1][1]
+
+    longitude2 = stations[station2][0]
+    latitude2 = stations[station2][1]
+
+    x_km = (longitude1 - longitude2) * 55.26
+    y_km = (latitude1 - latitude2) * 111.2
+    distance_km = math.sqrt(x_km**2 + y_km**2)
+    return distance_km
+
+def greatest_distance(stations: dict):
+   
+    max_names = tuple
+    max_distance = 0.00
+
+    for station1 in stations:
+
+        for station2 in stations:
+            if station1 != station2:
+                
+                current_distance = distance(stations, station1, station2)
+                if current_distance > max_distance:
+
+                    max_distance = current_distance
+                    max_names = (station1,station2)
+    return max_names[0],max_names[1], max_distance
+
+
+# Write your solution here
+
+who = input("Whom should I sign this to: ") 
+filename = input("Where shall I save it: ")
+with open(filename,"w") as myfile:
+    myfile.write(f"Hi {who}, we hope you enjoy learning Python with us! Best, Mooc.fi Team")# Write your solution here
+"""
+1 - add an entry, 2 - read entries, 0 - quit
+Function: 1
+Diary entry: Today I ate porridge
+Diary saved
+
+1 - add an entry, 2 - read entries, 0 - quit
+Function: 2
+Entries:
+Today I ate porridge
+1 - add an entry, 2 - read entries, 0 - quit
+Function: 1
+Diary entry: I went to the sauna in the evening
+Diary saved
+
+1 - add an entry, 2 - read entries, 0 - quit
+Function: 2
+Entries:
+Today I ate porridge
+I went to the sauna in the evening
+1 - add an entry, 2 - read entries, 0 - quit
+Function: 0
+Bye now!
+"""
+
+# read entries
+def read_entries(filename:str):
+    entries = ""
+    with open(filename) as journal:
+        for sentence in journal:
+            entries += sentence
+    return entries
+
+def write_entries(filename:str, user_input:str):
+  
+    with open(filename,"w") as journal:
+        journal.write(user_input)
+
+def entry_journal(filename:str, journal:str):
+    print("Diary entry: ")
+    diary_entry = input()
+    journal += diary_entry + "\n"
+    write_entries(filename, journal)
+    print("Diary saved")
+    return journal
+
+def read_journal(filename:str):
+    print("Entries: ")
+    journal = read_entries(filename)
+    print(journal)
+def main():
+    import math
+    filename = "diary.txt"
+    journal = read_entries(filename)
+    command = 2
+    while command > 0:
+        print("1 - add an entry, 2 - read entries, 0 - quit")
+        command = int(input("Function: "))
+
+        if command == 1:
+            # add entry and update the main one
+            journal=entry_journal(filename, journal)
+
+        elif command == 2:
+            read_journal(filename)
+
+
+    print("Bye now!")
+
+main()# Write your solution here
+
+def read_file(filename:str):
+    problems = []
+    with open(filename) as myfile:
+        for content in myfile:
+            problems.append(content.strip().split(";"))
+    return(problems)
+def ressemble_csv_format(solution:list)->str:
+     # restructure the string 
+    line = ""
+    for value in solution:
+        line += f"{value};"
+    line = line[:-1] + "\n"
+    return line
+    
+def write_file(filename:str, solutions:list):
+    with open(filename,"w") as myfile:
+        for solution in solutions:
+            myfile.write(solution)
+
+def filter_solutions():
+    # read the file for folder
+    solutions = read_file("solutions.csv")
+    right_solution = []
+    incorrect_solution = []
+    substraction = "-"
+    addition = "+"
+    current_result = 0
+    for solution in solutions:
+        name_of_student = solution[0]
+        result = int(solution[2])
+        if substraction in solution[1]:
+            numbers = solution[1].split(substraction)
+            current_result = int(numbers[0]) - int(numbers[1])
+        elif addition in solution[1]:
+            numbers = solution[1].split(addition)
+            current_result = int(numbers[0]) + int(numbers[1])
+
+        line = ressemble_csv_format(solution)
+        # correct
+        if current_result == result:
+            
+            right_solution.append(line)
+        else:
+            incorrect_solution.append(line)
+    
+    # write correct file
+    write_file("correct.csv", right_solution)
+    # write incorrect file
+    write_file("incorrect.csv",incorrect_solution)
+
+"""
+ # better solution
+def filter_solutions():
+    # Open all lines
+    with open("solutions.csv") as source, open("correct.csv", "w") as correct_file, open("incorrect.csv", "w") as incorrect_file:
+        for row in source:
+            # Split into pieces
+            pieces = row.split(";")
+ 
+            calculation = pieces[1]
+            result = pieces[2]
+ 
+            # Addition or subtraction?
+            if "+" in calculation:
+                operands = calculation.split("+")
+                # correct is True or False based on whether the calculation was correct or not
+                correct = int(operands[0]) + int(operands[1]) == int(result)
+            else:
+                operands = calculation.split("-")
+                # correct is True or False based on whether the calculation was correct or not
+                correct = int(operands[0]) - int(operands[1]) == int(result)
+ 
+            # Write to file
+            if correct:
+                correct_file.write(row)
+            else:
+                incorrect_file.write(row)
+"""# Write your solution here
+def store_personal_data(person: tuple):
+    with open("people.csv","a") as myfile:
+
+            name = person[0]
+            age = str(person[1])
+            height = str(person[2])
+            myfile.write(f"{name};{age};{height}\n")
+
+# tee ratkaisu tänne
+
+def get_exam_data(exam_data:list)->dict:
+    exam_points = {}
+
+    for exam in exam_data:
+        exam = exam.split(";")
+        if exam[0] != "id":
+            # convert to list of integer
+            
+            for indx in range(len(exam)):
+                exam[indx] = int(exam[indx])
+            exam_points[exam[0]] = exam[1:]
+    return exam_points
+
+def get_exercise_data(exercise_data:list)->dict:
+    exercises = {}
+
+    for exercise in exercise_data:
+        exercise = exercise.split(";")                                                 
+        if exercise[0] != "id":
+            # convert to list of integer
+            for indx in range(len(exercise)):
+                exercise[indx] = int(exercise[indx])
+            # assigned unique id with list of exercises
+            exercises[exercise[0]]=exercise[1:]
+    return exercises
+
+def get_exercise_points(completed_exercise:dict)->dict:
+    
+    exercise_points = {}
+    
+    for id, exercise in completed_exercise.items():
+        exercise_points[id] = sum(exercise) // 4
+
+    return exercise_points
+
+def get_grade(point:int)->int:
+    found_grade = 0
+    grade_range = [[0,14,0],[15,17,1],[18,20,2],[21,23,3],[24,27,4]]
+    if point >= 28:
+        found_grade = 5
+    else:
+        for grade in grade_range:
+            if grade[0] <= point <= grade[1]:
+                found_grade = grade[2]
+                break
+        
+    return found_grade
+
+def get_student_data(student_info:list)->dict:
+    students = {}
+
+    for student in student_info:
+        student = student.split(";")
+        if student[0] != "id":
+            students[int(student[0])] = student[1].strip() + " " + student[2].strip()
+    return students
+
+
+def calculate_statistics(student_info:dict, exercise_data:dict, exercise_points:dict, exam_points:dict):
+    satistics = {}
+    # print student name and completed exercises
+    for id, name in student_info.items():
+        sum_of_exampoints = sum(exam_points[id])
+        # get point from each exam and exercise
+        point = sum_of_exampoints + exercise_points[id]
+        # find grade 
+        grade = get_grade(point)
+        sum_of_exercise = sum(exercise_data[id])
+        satistics[id]=[name, sum_of_exercise, exercise_points[id], sum_of_exampoints, point, grade]
+    return satistics
+
+
+def format_output(statistics:dict, title:str, name_width:int, title_width:int):
+
+    underline = "=" * len(title)
+    header = f"{'name':{name_width}}{'exec_nbr':{title_width}}{'exec_pts.':{title_width}}{'exm_pts.':{title_width}}{'tot_pts.':{title_width}}{'grade':{title_width}}"
+    output_txt = f"{title}\n{underline}\n{header}\n"
+
+    output_csv = ""
+
+    for id, stat in statistics.items():
+        output_txt += f"{stat[0]:{name_width}}"
+        output_csv += f"{id};{stat[0]};{stat[-1]}\n"
+        for number in stat[1:]:
+            output_txt += f"{number:<{title_width}}"
+        output_txt += "\n"
+
+    return output_txt, output_csv
+
+def get_course_info(course_info):
+    title = []
+    for info in course_info:
+        info = info.split(":")
+        title.append(info[1].strip())
+
+    return f"{title[0]}, {title[1]} credits"
+
+# The program start from here 
+if False:
+    student_information = "students1.csv"
+    exercise_completed = "exercises1.csv"
+    exam_points = "exam_points1.csv"
+    course_information = "course3.txt"
+else:
+    student_information = input("Student information: ")
+    exercise_completed = input("Exercises completed: ")
+    exam_points = input("Exam points: ")
+    course_information = input("Course information: ")
+
+with open(student_information) as student_info, open(exercise_completed) as exer_completed, open(exam_points) as ex_point, open(course_information) as course_info:
+    course_title = get_course_info(course_info)
+    student_info = get_student_data(student_info)
+    exercise_data = get_exercise_data(exer_completed)
+    exercise_points = get_exercise_points(exercise_data)
+    exam_points = get_exam_data(ex_point)
+
+statistics = calculate_statistics(student_info, exercise_data, exercise_points, exam_points)
+output_txt, output_csv = format_output(statistics,course_title, 30, 10)
+
+txt_file = "results.txt"
+csv_file = "results.csv"
+with open(txt_file,"w") as txt, open(csv_file,"w") as csv:
+    txt.write(output_txt)
+    csv.write(output_csv)
+# Write your solution here
+def asterisk_words(search_term:str, word_list:list)->list:
+    found_word = []
+    
+    
+    # check for the word after the asterisk
+    if search_term.startswith("*"):
+        end_word = search_term[1:]
+        for word in word_list:
+            if word.endswith(end_word):
+                found_word.append(word)
+    elif search_term.endswith("*"):
+        start_word = search_term[:-1]
+        for word in word_list:
+            if word.startswith(start_word):
+                found_word.append(word)
+    
+    return found_word
+def dot_words(search_term:str, word_list:list)->list:
+    # same position and same length
+
+    found_word = []
+    is_found = False
+    # split the search_term in a list
+    for word in word_list:
+        if len(word) == len(search_term):
+            for search_term_indx in range(len(search_term)):
+                char = search_term[search_term_indx]
+                # must be same position with search_term and current word
+                # except the dot
+                if char != ".":
+                    if word[search_term_indx] == search_term[search_term_indx]:
+                        is_found = True 
+                    else:
+                        is_found = False
+                        break
+        # also search term and word must be the same length
+        if is_found == True:
+            found_word.append(word)
+        is_found = False
+    return found_word
+def find_words(search_term: str):
+    word_list = []
+    found_list = []
+    with open("words.txt") as words:
+        for word in words:
+            word_list.append(word.strip())
+    
+    if "*" in search_term:
+        # asterisk wild card
+        found_list = asterisk_words(search_term, word_list)
+    elif "." in search_term:
+        # dot wild card
+        found_list = dot_words(search_term, word_list)
+
+    else:
+        # search the word in word_list 
+        # one word search
+        for word in word_list:
+
+            if search_term == word:
+                found_list.append(word)
+    return found_list
+
+
+# Write your solution here
+"""
+1 - Add word, 2 - Search, 3 - Quit
+Function: 1
+The word in Finnish: auto
+The word in English: car
+Dictionary entry added
+1 - Add word, 2 - Search, 3 - Quit
+Function: 1
+The word in Finnish: roska
+The word in English: garbage
+Dictionary entry added
+1 - Add word, 2 - Search, 3 - Quit
+Function: 1
+The word in Finnish: laukku
+The word in English: bag
+Dictionary entry added
+1 - Add word, 2 - Search, 3 - Quit
+Function: 2
+Search term: bag
+roska - garbage
+laukku - bag
+1 - Add word, 2 - Search, 3 - Quit
+Function: 2
+Search term: car
+auto - car
+1 - Add word, 2 - Search, 3 - Quit
+Function: 2
+Search term: laukku
+laukku - bag
+1 - Add word, 2 - Search, 3 - Quit
+Function: 3
+Bye!
+"""
+
+def print_words(found_words:list):
+    
+    for word in found_words:
+        print(word,end="")
+def search_words(dictionary, search_term):
+    found_meaning = []
+    for words in dictionary:
+        if search_term in words:
+            found_meaning.append(words)
+    return found_meaning
+
+def add_content(meaning:str, file_name:str):
+    with open(file_name, "a") as myfile:
+        myfile.write(meaning)
+with open("dictionary.txt") as file_read, open("dictionary.txt","a") as file_write:
+    dictionary = []
+    # load the data in a dictionary
+    for meaning in file_read:
+        dictionary.append(meaning)
+
+    commands = 0
+    while commands != 3:
+        print("1 - Add word, 2 - Search, 3 - Quit")
+        commands = int(input("Function: "))
+        if commands == 1:
+            finnish = input("The word in Finnish: ")
+            english = input("The word in English: ")
+            format_meaning = f"{finnish} - {english}\n"
+            dictionary.append(format_meaning)
+            add_content(format_meaning, "dictionary.txt")
+            print("Dictionary entry added")
+        elif commands == 2:
+            search_term = input("Search term: ")
+            # search words 
+            found_words = search_words(dictionary, search_term)
+            print_words(found_words)
+
+        elif commands == 3:
+            print("Bye!")
+
+        
+# Write your solution here
+def read_input(message, low_number, high_number):
+    while True:
+        try:
+            input_str = int(input(message))
+            number = int(input_str)
+            if low_number <=number<=high_number:
+                return number
+        except:
+            pass
+        print(f"You must type in an integer between {low_number} and {high_number}")
+    
+# Write your solution here
+
+def new_person(name: str, age: int):
+
+    if name == "":
+        raise ValueError("name is an empty string")
+    elif len(name)>40:
+        raise ValueError("name is longer than 40 characters")    
+    elif age >150:
+        raise ValueError("age is greater than 150")
+    elif age < 0:
+        raise ValueError("age is a negative number")
+    elif len(name.split(" ")) < 2:
+        raise ValueError("name contains less than two words")
+    else:
+        return((name, age))
+   
+        
+
+
+
+
+# Write your solution here
+
+def verify_week_format(week:str):
+    # check if the week format is correct 
+    number_of_week = 0
+    # split the week 
+    week = week.split(" ")
+    if len(week) != 2 or week[0] != "week":
+        raise ValueError(f"wrong week format")
+    number_of_week = int(week[1])
+    
+    
+
+
+def verify_seven_numbers(numbers:str):
+
+    number_list = numbers.split(",")
+
+    MAX_NUMBER = 39
+    MIN_NUMBER = 1
+    # check the length is exactly length
+    if len(number_list) != 7:
+
+        raise ValueError("Not short length")
+    
+    #[1,2,3,4,..]
+    # convert the string to integer 
+    for indx in range(len(number_list)):
+        number = number_list[indx]
+        current_number = int(number.replace("\n","").strip())
+
+
+        
+        # check the range
+        if not(MIN_NUMBER <= current_number <= MAX_NUMBER):
+
+            raise ValueError(f"Out of range from 1-39 inclusively {current_number}")
+        
+        # check if the number appears in the rest of the list
+        if number in number_list[indx+1:]:
+
+            raise ValueError(f"Current number appear twice in the list {current_number}")
+
+
+def filter_incorrect():
+
+    with open("lottery_numbers.csv", "r") as loterry_file, open("correct_numbers.csv", "w") as correct_format:
+        for content in loterry_file:
+            # split the week format from the string 
+            lottery_data = content.split(";")
+            week = lottery_data[0]
+            numbers = lottery_data[1]
+
+            try:
+                # verity the week is in a correct format 
+                verify_week_format(week)
+                verify_seven_numbers(numbers)
+                correct_format.write(content)
+            except:
+                pass
+
+# Write your solution here
+from math import sqrt
+
+def hypotenuse(leg1: float, leg2: float)->float:
+    return sqrt(leg1**2 + leg2**2)# Write your solution here
+
+def separate_characters(my_string: str)->tuple:
+    from string import punctuation, ascii_letters
+    result = tuple
+    alphabets = ""
+    punctuations = ""
+    other_characters = ""
+    for char in my_string:
+        if char in ascii_letters:
+            alphabets += char
+        elif char in punctuation:
+            punctuations += char
+        else: 
+            other_characters += char
+
+    result = (alphabets, punctuations, other_characters)
+    return result
+# Write your solution here
+def fractionate(amount: int)->list:
+    from fractions import Fraction
+    list_fractions = []
+    for number in range(amount):
+        list_fractions.append(Fraction(1,amount))
+
+    return list_fractions
+# Write your solution here
+
+def lottery_numbers(amount: int, lower: int, upper: int)->list:
+    from random import sample
+    random_numbers = sorted(sample(list(range(lower,upper+1)),amount))
+
+    return random_numbers   
+
+"""
+def loterry_numbers(amount: int, lower: int, upper: int)->list:
+    from random import randint
+    random_numbers = []
+
+    while len(random_numbers) < amount:
+
+        current_rand = randint(lower, upper)
+
+        if current_rand not in random_numbers:
+            random_numbers.append(current_rand)
+    return sorted(random_numbers)
+print(loterry_numbers(3,1,5))
+"""# Write your solution here
+def generate_password(pass_length:int)->str:
+    from string import ascii_lowercase
+    from random import randint
+    password = ""
+    while len(password) < pass_length:
+        indx = randint(0,25)
+
+        if ascii_lowercase[indx] not in password:
+            password += ascii_lowercase[indx]
+    return password
+
+
+"""
+from random import choice
+from string import ascii_lowercase
+ 
+def generate_password(length: int):
+    passwd = ""
+    for i in range(length):
+        passwd += choice(ascii_lowercase)
+ 
+    return passwd
+ 
+"""# Write your solution here
+from random import choice
+from string import ascii_lowercase, digits
+
+def generate_strong_password(pass_length:int, include_number:bool, include_special_char:int)->str:
+    password = ""
+    special_chars = "!?=+-()#"
+
+    while len(password) < pass_length:
+
+        password += choice(ascii_lowercase)
+
+        if include_number and len(password) < pass_length:
+            password += choice(digits)
+        if include_special_char and len(password) < pass_length:
+            password += choice(special_chars)
+
+    return password
+
+"""
+ 
+from random import choice, randint
+from string import ascii_lowercase, digits
+ 
+def generate_strong_password(length: int, numbers: bool, special_characters: bool):
+    special_chars = "!?=+-()#"
+    # One letter at beginning of the password
+    passwd = choice(ascii_lowercase)
+    choice_set = ascii_lowercase
+ 
+    # If numbers is wanted, add at least one number
+    if numbers:
+        passwd = add_character(passwd, digits)
+        choice_set += digits
+ 
+    # same for special characters
+    if special_characters:
+        passwd = add_character(passwd, special_chars)
+        choice_set += special_chars
+ 
+    # build the rest of the password from the whole set
+    while (len(passwd) < length):
+        passwd = add_character(passwd, choice_set)
+ 
+    return passwd
+ 
+# Add a random character from the given set either
+# at the beginning or end of the string
+def add_character(passwd: str, characters):
+    character = choice(characters)
+    if randint(1,2) == 1:
+        return character + passwd
+    else:
+        return passwd + character
+ 
+# Write your solution here
+"""
+# Write your solution here
+
+from random import choice
+def roll(die: str)->int:
+    die_A = [3, 3, 3, 3, 3, 6]
+    die_B = [2, 2, 2, 5, 5, 5]
+    die_C = [1, 4, 4, 4, 4, 4]
+    random_number = 0
+    if "A" == die:
+        random_number = choice(die_A)
+    elif "B" == die:
+        random_number = choice(die_B)
+    elif "C" == die:
+        random_number = choice(die_C)
+    
+    return random_number
+def play(die1: str, die2: str, times: int)->int:
+    die1_win = 0
+    die2_win = 0
+    ties = 0
+    result = tuple
+
+    
+    for i in range(times):
+        track_die1 = roll(die1)
+        track_die2 = roll(die2)
+        if track_die1>track_die2:
+            die1_win += 1
+        elif track_die2>track_die1:
+            die2_win += 1
+        else:
+            ties += 1
+        
+    result = (die1_win,die2_win,ties)
+
+    return result
+
+"""
+# smart solution
+from random import sample
+def roll(die: str):
+    dices = {
+        "A": [3, 3, 3, 3, 3, 6],
+        "B": [2, 2, 2, 5, 5, 5],
+        "C": [1, 4, 4, 4, 4, 4]
+    }
+ 
+    return sample(dices[die], 1)[0]
+ 
+def play(die1: str, die2: str, times: int):
+    v1 = 0
+    v2 = 0
+    t = 0
+    for i in range(times):
+        n1 = roll(die1)
+        n2 = roll(die2)
+        if n1>n2:
+            v1 += 1
+        elif n1<n2:
+            v2 += 1
+        else:
+            t += 1
+    return v1, v2, t
+ 
+"""# Write your solution here
+
+from random import choice, sample
+def words(n: int, beginning: str):
+    # open file and prepare words in a list
+    starting_words = []
+    random_words = []
+    with open("words.txt") as word_list:
+        # find word start with beginning
+        # if there is none starting word then raise value error
+        for word in word_list:
+            word = word.strip()
+            if word.startswith(beginning):
+                starting_words.append(word)
+    if len(starting_words) < n:
+        raise ValueError("We can not find a single word that match given beginning word")
+
+    # then find the randomize word from the list     
+    # make sure word doesn't appear twice
+    while len(random_words) < n:
+        word = choice(starting_words)
+
+        if  word not in random_words:
+            random_words.append(word)
+
+    return(random_words)
+
+
+    """
+    def words(n: int, beginning: str):
+    word_list = []
+    with open("words.txt") as file:
+        for word in file:
+            word = word.replace("\n","")
+            if word.startswith(beginning):
+                word_list.append(word)
+    if len(word_list) < n:
+        raise ValueError("Not enough suitable words can be found!")
+    return random.sample(word_list, n)
+    """
+
+
+# Write your solution here
+from datetime import datetime, timedelta
+day = int(input("Day: "))
+month = int(input("Month: "))
+year = int(input("Year: "))
+dob = datetime(year,month,day)
+eve_of_new_mill = datetime(1999,12,31)
+difference = eve_of_new_mill - dob 
+
+if dob < eve_of_new_mill:
+    print(f"You were {difference.days} days old on the eve of the new millennium.")
+else:
+    print(f"You weren't born yet on the eve of the new millennium.")# Write your solution here
+
+from datetime import datetime
+def verify_date_format(pic:str, pic_date:str):
+
+    # check if the date format is correct
+    pic_date = pic[:len(pic_date)]
+    day = int(pic_date[:2])
+    month = int(pic_date[2:4])
+    year = pic_date[4:] 
+
+    if "+" in pic:
+        year = "18" + year
+    elif "-" in pic:
+        year = "19" + year
+    elif "A" in pic:
+        year = "20" + year
+    else:
+        raise ValueError('wrong date format')
+    year = int(year)
+    
+    # trying to convert to date time format
+    # if it can't convert then raise and error that try block will catch in the main function or function it was call
+    datetime(year,month,day)
+def verify_control_char(pic:str):
+    control_chars = "0123456789ABCDEFHJKLMNPRSTUVWXY"
+    nine_digits = int(pic[0:6] + pic[7:10])
+    control_indx =  nine_digits % 31 
+    last_control_pic_value = pic[-1]
+    if control_chars[control_indx] != last_control_pic_value:
+        raise ValueError("wrong control char")
+def is_it_valid(pic: str)->bool:
+    
+    # check the date ddmmyy
+    pic_date = "ddmmyy"
+    control_char = "Xyyyz"
+    valid_len = len(pic_date+control_char) 
+    is_valid_pic = True 
+    # check the length of the pic and it must be 
+    if valid_len < len(pic):
+        return False
+    try:
+        verify_date_format(pic, pic_date)
+        verify_control_char(pic)
+
+    except ValueError:
+        is_valid_pic = False 
+    
+    return is_valid_pic
+    # Write your solution here
+
+from datetime import datetime, timedelta
+
+
+if True:
+    filename = input("Filename: ")
+    start_date = input("Starting date: ")
+    input_days = int(input("How many days: "))
+else:
+    filename = "late_june.txt"
+    start_date = "24.6.2020"
+    input_days = 2
+
+counting_day = 0
+screen_time = {}
+start_date = datetime.strptime(start_date,"%d.%m.%Y")
+print(f"Please type in screen time in minutes on each day (TV computer mobile):")
+formatted_date = start_date
+while counting_day < input_days:
+    screen_date = formatted_date.strftime("%d.%m.%Y")
+
+    # extract screen time from the string
+    current_screen_time = input(f"Screen time {screen_date}: ")
+    
+
+    screen_time[screen_date] = current_screen_time
+    
+    formatted_date += timedelta(days=1)
+    counting_day += 1
+
+with open(filename,"w") as myfile:
+    # format the date 
+    total_minutes = 0
+    # calculate total minutes
+    for screen_date in screen_time:
+        for minute in screen_time[screen_date].split(" "):
+            total_minutes += int(minute)
+
+    # calculate average minutes
+    average_minutes = total_minutes/input_days
+
+    end_date = start_date + timedelta(days=input_days-1)
+
+
+    result = f"Time period: {start_date.strftime('%d.%m.%Y')}-{end_date.strftime('%d.%m.%Y')}\nTotal minutes: {total_minutes}\nAverage minutes: {average_minutes:.1f}\n"
+    for screen_date in screen_time:
+        formatted_minutes = screen_time[screen_date].replace(" ", "/")
+        result += f"{screen_date}: {formatted_minutes}\n"
+
+    myfile.write(result)
+print(f"Data stored in file {filename}")
+
+"""
+from datetime import datetime, timedelta
+ 
+week = timedelta(days=7)
+ 
+def format(aika):
+    return aika.strftime("%d.%m.%Y")
+ 
+file = input("Filename: ")
+start = input("Starting date: ").split('.')
+days = int(input("How many days: "))
+print("Please type in screen time in minutes on each day (TV computer mobile):")
+ 
+screen_times = []
+total = 0
+start = datetime(int(start[2]), int(start[1]), int(start[0]))
+ 
+for i in range(days):
+    day = start + timedelta(days=i)
+    times = input(f"Screen time {format(day)}: ").split(' ')
+    tv = int(times[0])
+    pc = int(times[1])
+    mobile = int(times[2])
+    total += tv + pc + mobile
+    screen_times.append((day, tv, pc, mobile) )
+ 
+with open(file, "w") as tdsto:
+    tdsto.write(f"Time period: {format(start)}-{format(start + timedelta(days=(days-1)))}\n")
+    tdsto.write(f"Total minutes: {total}\n")
+    tdsto.write(f"Average minutes: {total/days:.1f}\n")
+    for pv, tv, pc, mob in screen_times:
+        tdsto.write(f"{format(pv)}: {tv}/{pc}/{mob}\n")
+ 
+print(f"Data stored in file {file}")
+"""
+# Write your solution here
+
+import json 
+def print_persons(filename: str):
+    with open(filename) as myfile:
+        data = myfile.read()
+    for student_info in json.loads(data):
+        print(f"{student_info['name']} {student_info['age']} years ({', '.join(student_info['hobbies'])})")
+
+
+
+    # Write your solution here
+
+import urllib.request
+import json
+
+def retrieve_all()->list[tuple]:
+    my_request = urllib.request.urlopen("https://studies.cs.helsinki.fi/stats-mock/api/courses")
+    student_data = my_request.read()
+    refine_data = []
+    #  part 1
+    for data in json.loads(student_data):
+        if data["enabled"]:
+            refine_data.append((data["fullName"],data["name"],data["year"],sum(data["exercises"])))
+    return refine_data
+
+# part 2
+
+def retrieve_course(course_name: str)->dict:
+    my_request = urllib.request.urlopen(f"https://studies.cs.helsinki.fi/stats-mock/api/courses/{course_name}/stats")
+    student_data = json.loads(my_request.read())
+    statistics = {}
+
+    max_students = 0
+    total_hours = 0
+    exercise_total = 0
+
+
+    for week in student_data:
+
+        max_students = max(max_students, student_data[week]['students'])
+        total_hours += student_data[week]['hour_total']
+        exercise_total += student_data[week]['exercise_total']
+
+    #weeks: the number of JSON object literals retrieved
+    statistics['weeks'] = len(student_data)
+    #students: the maximum number of students in all the weeks
+    statistics['students'] = max_students
+    #hours: the sum of all hour_total values in the different weeks
+    statistics['hours'] = total_hours
+    #hours_average: the hours value divided by the students value (rounded down to the closest integer value)
+    statistics['hours_average'] = total_hours // max_students
+    
+    #exercises: the sum of all exercise_total values in the different weeks
+    statistics['exercises'] = exercise_total
+    
+    # exercises_average: the exercises value divided by the students value (rounded down to the closest integer value)
+    statistics['exercises_average'] = exercise_total // max_students
+    return statistics
+
+    # Write your solution here
+
+from datetime import datetime, timedelta
+def cheaters():
+    exam_info = {}
+
+    with open("start_times.csv") as start_time_file, open("submissions.csv") as submit_time_file:
+        # convert csv file to json list
+        
+        for time in start_time_file:
+            time = time.strip().split(";")
+            student_name = time[0]
+            if student_name not in exam_info:
+                exam_info[time[0]] = {"start":[time[1]]}
+            else:
+                exam_info[time[0]]["start"].append(time[1])
+
+        for time in submit_time_file:
+            time = time.strip().split(";")
+            student_name = time[0]
+            if 'submit' not in exam_info[time[0]]:
+                exam_info[time[0]]['submit'] = [time[-1]]
+            else:
+                exam_info[time[0]]["submit"].append(time[-1])
+
+
+    allow_time = timedelta(hours=3)
+    cheater_names = []
+    for name in exam_info:
+        # convert time and find the difference 
+        start = min(exam_info[name]['start'])
+        submit = max(exam_info[name]['submit'])
+        
+        spend_time = abs(datetime.strptime(start,"%H:%M") - datetime.strptime(submit,"%H:%M"))
+        print(f"{name:<30}{start} {submit} {spend_time}")
+        if spend_time > allow_time:
+
+            cheater_names.append(name)
+
+    return cheater_names
+cheaters()
+"""
+import csv
+from datetime import datetime, timedelta
+ 
+def cheaters():
+    with open("start_times.csv") as start, open("submissions.csv") as submission:
+        start_times = {}
+        # First read students and start times to memory
+        for row in csv.reader(start, delimiter=";"):
+            name = row[0]
+            time = datetime.strptime(row[1], "%H:%M")
+            start_times[name] = time
+ 
+        # Then read submissions
+        # From each student, last (i.e. greatest) is saved
+        submission_times = {}
+        for row in csv.reader(submission, delimiter=";"):
+            name = row[0]
+            time = datetime.strptime(row[3], "%H:%M")
+            # If name does not exists in dictionary, add time directly to the dictionary
+            if name not in submission_times:
+                submission_times[name] = time
+            # If there alredy exists time for key, compare if current time is greater
+            elif time > submission_times[name]:
+                submission_times[name] = time
+        
+        cheaters = []
+        # Iterate through students one by one
+        for name in start_times:
+            if submission_times[name] - start_times[name] > timedelta(hours = 3):
+                cheaters.append(name)
+ 
+        return cheaters
+"""
+
+
+
+
+# Write your solution here
+
+from datetime import datetime, timedelta
+import csv
+
+def final_points():
+    allow_time = timedelta(hours=3)
+    exam_info = {}
+    final_point_info = {}
+    with open("start_times.csv") as start_times, open("submissions.csv") as submit_times:
+        for row in csv.reader(start_times, delimiter=";"):
+            student_name = row[0]
+            time = datetime.strptime(row[-1],"%H:%M") 
+            if student_name not in exam_info:
+                exam_info[student_name] = {"start_time":time}
+            elif exam_info[student_name]["start_time"] > time:
+                exam_info[student_name]["start_time"] = time
+
+        for row in csv.reader(submit_times, delimiter=";"):
+            student_name = row[0]
+            submit_time = datetime.strptime(row[-1],"%H:%M") 
+            points = int(row[-2])
+            tasks = row[1]
+            
+            if 'tasks' not in exam_info[student_name]:
+                exam_info[student_name]["tasks"]={}
+
+            if tasks not in exam_info[student_name]['tasks']:
+                exam_info[student_name]["tasks"][tasks]=points
+            elif abs( submit_time - exam_info[student_name]["start_time"]) <= allow_time and exam_info[student_name]['tasks'][tasks] < points:
+                exam_info[student_name]['tasks'][tasks] = points
+
+
+        for name in exam_info:
+
+            final_point_info[name] = sum(exam_info[name]['tasks'].values())
+            
+    return final_point_info
+
+# Write your solution here
+import difflib
+word_list = []
+suggest_words = []
+highlighted = ""
+with open("wordlist.txt") as myfile:
+
+    for word in myfile:
+        word_list.append(word.strip())
+input_word = input("write text: ").split(" ")
+
+for word in input_word:
+    if word.lower() not in word_list:
+        suggest_words.append(f"{word}: {', '.join(difflib.get_close_matches(word, word_list))}")
+        word = f"*{word}*"
+    
+    highlighted += word + " "
+print(highlighted)
+print("Suggestions:")
+for suggest in suggest_words:
+    print(f"{suggest}") # Write your solution here
+
+def change_case(orig_string: str)->str:
+    """
+    The function change_case(orig_string: str) creates and returns a new version of the parameter string. 
+    The lowercase letters in the original should be uppercase, and uppercase letters should be lowercase.
+    """
+    change_string = ""
+    for letter in orig_string:
+
+        if letter.islower():
+            change_string += letter.upper()
+        else:
+            change_string += letter.lower()
+    return change_string
+
+def split_in_half(orig_string: str)->tuple:
+    """
+    The function split_in_half(orig_string: str) 
+    splits the parameter string in half, 
+    and returns the results in a tuple. 
+    If the original has an odd number of characters, 
+    the first half should be shorter.
+    """
+    # decide odd if the length is odd value 
+    string_length = len(orig_string)
+
+    first_half = ""
+    second_half = ""
+    string_len = string_length//2
+
+    first_half = orig_string[:string_len]
+    second_half = orig_string[string_len:]
+    return (first_half, second_half)
+
+import string
+def remove_special_characters(orig_string: str)->str:
+    """
+    The function remove_special_characters(orig_string: str) returns a new version of the parameter string, with all special characters removed. 
+    Only lowercase and uppercase letters, numbers and spaces are allowed in the returned string.
+    """
+    new_string = ""
+    for letter in orig_string:
+        if letter in string.printable and letter not in string.punctuation:
+         new_string += letter
+    return new_string
+
+
+
+# print variable
+def print_variable(command:str, variables:dict):
+
+    # split the command string in to list and value
+    values = command.split(" ")[-1]
+
+    # check if the value is exists in the variable
+    if values.isdigit():
+        return int(values)
+    # if not exist in dictionar list then print 
+    else:
+
+        return variables[values]
+
+
+# A-Z with 0 vlues for each 
+def prepare_variable(variables:dict):
+    """
+    Each program has 26 pre-defined variables, named A to Z. 
+    Each variable has the value 0 when the program begins. 
+    The notation [variable] refers to one of these 26 variables.
+    """
+    from string import ascii_uppercase
+
+    value = 0
+    for letter in ascii_uppercase:
+        variables[letter] = value
+
+# extract commands and values
+def extract_helper(command:str, variables:dict)->tuple:
+    command_list = command.split(' ')
+    input_variable = command_list[1]
+    input_values = command_list[2]
+    values = 0
+    if input_values.isdigit():
+        values = int(input_values)
+    else:
+        values = variables[input_values]
+    return input_variable, values
+
+
+# add variable 
+def add_values(command:str, variables:dict):
+    # change value of specific variables from command
+    input_variable, values = extract_helper(command, variables)
+    variables[input_variable] += values
+
+# subtract variable 
+def subtract_values(command:str, variables:dict):
+    # change value of specific variables from command
+    input_variable, values = extract_helper(command, variables)
+    variables[input_variable] =  variables[input_variable] - values
+
+# multiply variable
+def multiply_values(command:str, variables:dict):
+    input_variable, values = extract_helper(command, variables)
+
+    variables[input_variable] = values * variables[input_variable]
+
+
+def mov_values(command:str, variables:dict):
+    input_variable, values = extract_helper(command, variables)
+    variables[input_variable] = values
+
+
+def jump_location(command:str, program: list[str]):
+    location_name = command.split(" ")[1]+":"
+    indx_position = program.index(location_name)
+    return indx_position 
+def check_condition(commands:str, varialbes:dict):
+    
+    # parse variable A and B or left and Right 
+   
+    
+    A,comparison,B = commands.split(' ')
+    try:
+        A = varialbes[A]
+    except:
+        A = int(A)
+    try:
+        B = varialbes[B]
+    except:
+        B = int(B)
+    if (comparison == '!=' and A != B) or (comparison == '==' and A == B) or (comparison == '<=' and A <= B) or (comparison == '>=' and A >= B )or (comparison == '>' and A > B ) or (comparison == '<' and A < B ):
+        return True
+            
+    return False
+
+def run(program:list[str])->list[int]:
+
+    # define variables from A-Z dictionary
+    variables = {}
+    prepare_variable(variables)
+
+    # command result
+    result = []
+    indx = 0
+    location = {}
+    
+    while indx < len(program):
+        command = program[indx].split(' ')[0]
+        commands = program[indx]
+        # commands 
+        if 'END' == command:
+            break
+        elif 'PRINT' == command:
+
+            # call print command function
+            result.append(print_variable(commands, variables))
+        elif 'ADD' == command:
+            # call add command function
+            
+            add_values(commands, variables)
+
+        elif 'SUB' == command:
+            # call sub command function
+
+            subtract_values(commands, variables)
+        
+        elif 'MUL' == command:
+            # call mul command function
+            multiply_values(commands, variables)
+        elif 'MOV' == command:
+            # call mov command function
+            mov_values(commands, variables)
+        elif 'JUMP' == command:
+            # jump to the indx value given by alphabet
+            indx = jump_location(commands, program)
+        elif 'IF' == command:
+            # if condition true execute jump command
+            find_jump_location = commands.find('JUMP')
+
+            # find condition and check if that condition is true
+            if check_condition(commands[len(command):find_jump_location].strip(), variables):
+               indx = jump_location(commands[find_jump_location:], program)
+    
+        indx += 1
+    
+    return(result)
+if __name__ == "__main__":
+    # program2 = []
+    # program2.append("MOV A 1")
+    # program2.append("MOV B 10")
+    # program2.append("begin:")
+    # program2.append("IF A >= B JUMP quit")
+    # program2.append("PRINT A")
+    # program2.append("PRINT B")
+    # program2.append("ADD A 1")
+    # program2.append("SUB B 1")
+    # program2.append("JUMP begin")
+    # program2.append("quit:")
+    # program2.append("END")
+    # result = run(program2)
+    # print(result)
+    program = ['MOV A 10', 'start:', 'PRINT A', 'SUB A 1', 'IF A > 0 JUMP start', 'END']
+    result = run(program)
+    print(result)
+
+"""
+def value(x, data):
+    characters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+    if x in characters:
+        return data[characters.index(x)]
+    else:
+        return int(x)
+ 
+def condition(a, condition, b):
+    if condition == "==":
+        return a == b
+    if condition == "!=":
+        return a != b
+    if condition == "<":
+        return a < b
+    if condition == "<=":
+        return a <= b
+    if condition == ">":
+        return a > b
+    if condition == ">=":
+        return a >= b
+ 
+def run(program):
+    length = len(program)
+    row = 0
+    characters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+    data = [0]*26
+    result = []
+    while True:
+        if row == length:
+            break
+        parts = program[row].split(" ")
+        if parts[0] == "PRINT":
+            result.append(value(parts[1], data))
+        if parts[0] == "MOV":
+            data[characters.index(parts[1])] = value(parts[2], data)
+        if parts[0] == "ADD":
+            data[characters.index(parts[1])] += value(parts[2], data)
+        if parts[0] == "SUB":
+            data[characters.index(parts[1])] -= value(parts[2], data)
+        if parts[0] == "MUL":
+            data[characters.index(parts[1])] *= value(parts[2], data)
+        if parts[0] == "JUMP":
+            row = program.index(parts[1]+":")
+            continue
+        if parts[0] == "IF":
+            if condition(value(parts[1], data), parts[2], value(parts[3], data)):
+                row = program.index(parts[5]+":")
+                continue
+        if parts[0] == "END":
+            break
+        row += 1
+    return result
+"""
